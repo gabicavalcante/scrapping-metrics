@@ -1,6 +1,6 @@
 name: Metrics generator
 
-on: [push]
+on: push
 
 jobs:
   generate:
