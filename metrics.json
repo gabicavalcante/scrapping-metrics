@@ -1,0 +1,2632 @@
+{
+    "metrics": [
+        {
+            "2021-10-04T00:00:00+00:00-2021-10-10T23:59:59+00:00": {
+                "merge_rate": {
+                    "total_prs": [
+                        {
+                            "author": "smithdc1",
+                            "merged_at": "2021-10-14 06:13:23+00:00"
+                        },
+                        {
+                            "author": "sh-cho",
+                            "merged_at": "2021-10-11 07:40:06+00:00"
+                        },
+                        {
+                            "author": "abhiabhi94",
+                            "merged_at": "2021-10-11 08:47:34+00:00"
+                        },
+                        {
+                            "author": "christophehenry",
+                            "merged_at": "2021-10-12 06:42:51+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-08 13:51:04+00:00"
+                        },
+                        {
+                            "author": "christophehenry",
+                            "merged_at": "2021-10-07 11:10:52+00:00"
+                        },
+                        {
+                            "author": "charettes",
+                            "merged_at": "2021-10-06 05:25:17+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-11 18:52:58+00:00"
+                        },
+                        {
+                            "author": "fraziern",
+                            "merged_at": "2021-10-08 13:49:57+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-05 11:30:41+00:00"
+                        },
+                        {
+                            "author": "carltongibson",
+                            "merged_at": "2021-10-06 10:00:19+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-05 10:39:13+00:00"
+                        },
+                        {
+                            "author": "carltongibson",
+                            "merged_at": "2021-10-05 08:48:38+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-05 07:59:10+00:00"
+                        },
+                        {
+                            "author": "jacobtylerwalls",
+                            "merged_at": "2021-10-05 06:02:09+00:00"
+                        },
+                        {
+                            "author": "jacobtylerwalls",
+                            "merged_at": "2021-10-06 06:58:32+00:00"
+                        }
+                    ],
+                    "prs_authors": [
+                        "smithdc1",
+                        "sh-cho",
+                        "abhiabhi94",
+                        "christophehenry",
+                        "felixxm",
+                        "charettes",
+                        "fraziern",
+                        "carltongibson",
+                        "jacobtylerwalls"
+                    ],
+                    "merge_rate": 1.7777777777777777
+                },
+                "hotfixes": {
+                    "hotfix_list": []
+                },
+                "merge_time": {
+                    "mean": "1 day, 0:41:37.312500",
+                    "median": "7:54:42.500000",
+                    "percentile_95": "3 days, 10:35:25.250000",
+                    "total_prs": [
+                        {
+                            "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-09 17:06:53+00:00",
+                            "merged_at": "2021-10-14 06:13:23+00:00"
+                        },
+                        {
+                            "title": "Refs #32900 -- Restored '[y/N]' in questioner prompt when merging migrations.",
+                            "author": "sh-cho",
+                            "created_at": "2021-10-09 14:58:03+00:00",
+                            "merged_at": "2021-10-11 07:40:06+00:00"
+                        },
+                        {
+                            "title": "Fixed #33149 -- Made test runner --pdb option work with subTest().",
+                            "author": "abhiabhi94",
+                            "created_at": "2021-10-08 18:48:19+00:00",
+                            "merged_at": "2021-10-11 08:47:34+00:00"
+                        },
+                        {
+                            "title": "Fixed #33178 -- Made createsuperuser validate required fields passed in options in interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-08 13:34:21+00:00",
+                            "merged_at": "2021-10-12 06:42:51+00:00"
+                        },
+                        {
+                            "title": "Fixed #33022 -- Fixed isolation of migrations.test_executor.ExecutorTests.test_custom_user().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-08 06:04:16+00:00",
+                            "merged_at": "2021-10-08 13:51:04+00:00"
+                        },
+                        {
+                            "title": "Fixed #33151 -- Fixed createsuperuser crash for many-to-many required fields in non-interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-07 10:03:56+00:00",
+                            "merged_at": "2021-10-07 11:10:52+00:00"
+                        },
+                        {
+                            "title": "Refs #26430 -- Removed unused branch in sql.Query.get_count().",
+                            "author": "charettes",
+                            "created_at": "2021-10-05 21:22:40+00:00",
+                            "merged_at": "2021-10-06 05:25:17+00:00"
+                        },
+                        {
+                            "title": "Used Python 3.10 for docs and linters GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 19:11:29+00:00",
+                            "merged_at": "2021-10-11 18:52:58+00:00"
+                        },
+                        {
+                            "title": "Improved docs regarding UTF-8 support with Apache and mod_wsgi.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-05 12:52:15+00:00",
+                            "merged_at": "2021-10-08 13:49:57+00:00"
+                        },
+                        {
+                            "title": "Refs #32074 -- Doc'd Python 3.10 compatibility in Django 3.2.x.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 10:42:45+00:00",
+                            "merged_at": "2021-10-05 11:30:41+00:00"
+                        },
+                        {
+                            "title": "Refs #33029 -- Fixed popups Selenium tests in headless mode.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 10:16:45+00:00",
+                            "merged_at": "2021-10-06 10:00:19+00:00"
+                        },
+                        {
+                            "title": "[3.2.x] Refs #32074 -- Used asyncio.get_running_loop() instead of get_event_loop() on Python 3.7+.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 09:38:58+00:00",
+                            "merged_at": "2021-10-05 10:39:13+00:00"
+                        },
+                        {
+                            "title": "Removed easy_install example from Release How-To.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 08:06:22+00:00",
+                            "merged_at": "2021-10-05 08:48:38+00:00"
+                        },
+                        {
+                            "title": "Refs #32074 -- Added Python 3.10 to classifiers and tox.ini.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 06:11:07+00:00",
+                            "merged_at": "2021-10-05 07:59:10+00:00"
+                        },
+                        {
+                            "title": "Refs #29026 -- Added `log()` to makemigrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-05 01:41:47+00:00",
+                            "merged_at": "2021-10-05 06:02:09+00:00"
+                        },
+                        {
+                            "title": "Fixed #23408 -- Added migrations questioner prompt for adding unique fields with a callable default.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-04 18:51:49+00:00",
+                            "merged_at": "2021-10-06 06:58:32+00:00"
+                        }
+                    ],
+                    "merged_pr_rate": 80.0
+                },
+                "pr_size": {
+                    "total_prs": [
+                        {
+                            "additions": 86,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 5,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 62,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 190,
+                            "deletions": 31
+                        },
+                        {
+                            "additions": 34,
+                            "deletions": 26
+                        },
+                        {
+                            "additions": 561,
+                            "deletions": 450
+                        },
+                        {
+                            "additions": 29,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 23,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 4
+                        },
+                        {
+                            "additions": 4,
+                            "deletions": 4
+                        },
+                        {
+                            "additions": 12,
+                            "deletions": 6
+                        },
+                        {
+                            "additions": 6,
+                            "deletions": 4
+                        },
+                        {
+                            "additions": 10,
+                            "deletions": 3
+                        },
+                        {
+                            "additions": 9,
+                            "deletions": 2
+                        },
+                        {
+                            "additions": 71,
+                            "deletions": 19
+                        },
+                        {
+                            "additions": 2,
+                            "deletions": 6
+                        },
+                        {
+                            "additions": 2,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 22,
+                            "deletions": 19
+                        },
+                        {
+                            "additions": 86,
+                            "deletions": 0
+                        }
+                    ],
+                    "total_mean": 89.65,
+                    "total_median": 20.5,
+                    "total_percentile_95": 260.50000000000057,
+                    "rate_mean": 31.95,
+                    "rate_median": 7.0,
+                    "rate_percentile_95": 113.40000000000003
+                },
+                "time_to_merge": {
+                    "mean": "4:12:59.312500",
+                    "median": "1:21:05.500000",
+                    "percentile_95": "16:06:29.250000",
+                    "merged_prs": [
+                        {
+                            "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-09 17:06:53+00:00",
+                            "merged_at": "2021-10-14 06:13:23+00:00",
+                            "closed_at": "2021-10-14 06:13:23+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps.",
+                                    "commited_at": "2021-10-13 07:51:44+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32900 -- Restored '[y/N]' in questioner prompt when merging migrations.",
+                            "author": "sh-cho",
+                            "created_at": "2021-10-09 14:58:03+00:00",
+                            "merged_at": "2021-10-11 07:40:06+00:00",
+                            "closed_at": "2021-10-11 07:40:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32900 -- Restored '[y/N]' in questioner prompt when merging migrations.\n\nRegression in 02bc7161ec477afd4a7b328936eb8adac078d7b9.",
+                                    "commited_at": "2021-10-11 07:04:09+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33149 -- Made test runner --pdb option work with subTest().",
+                            "author": "abhiabhi94",
+                            "created_at": "2021-10-08 18:48:19+00:00",
+                            "merged_at": "2021-10-11 08:47:34+00:00",
+                            "closed_at": "2021-10-11 08:47:34+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33149 -- Made --pdb option work with subTest().\n\nThanks Lucidot for the report and Mariusz for the intial\nsuggestion on the ticket.",
+                                    "commited_at": "2021-10-08 18:46:08+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33178 -- Made createsuperuser validate required fields passed in options in interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-08 13:34:21+00:00",
+                            "merged_at": "2021-10-12 06:42:51+00:00",
+                            "closed_at": "2021-10-12 06:42:51+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #33178 -- Added createsuperuser tests for validation of foreign keys.",
+                                    "commited_at": "2021-10-12 05:54:50+00:00"
+                                },
+                                {
+                                    "message": "Fixed #33178 -- Made createsuperuser validate required fields passed in options in interactive mode.",
+                                    "commited_at": "2021-10-12 06:08:05+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33022 -- Fixed isolation of migrations.test_executor.ExecutorTests.test_custom_user().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-08 06:04:16+00:00",
+                            "merged_at": "2021-10-08 13:51:04+00:00",
+                            "closed_at": "2021-10-08 13:51:04+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33022 -- Fixed isolation of migrations.test_executor.ExecutorTests.test_custom_user().",
+                                    "commited_at": "2021-10-08 05:50:05+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33151 -- Fixed createsuperuser crash for many-to-many required fields in non-interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-07 10:03:56+00:00",
+                            "merged_at": "2021-10-07 11:10:52+00:00",
+                            "closed_at": "2021-10-07 11:10:52+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33151 -- Fixed createsuperuser crash for many-to-many required fields in non-interactive mode.",
+                                    "commited_at": "2021-10-07 10:37:16+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #26430 -- Removed unused branch in sql.Query.get_count().",
+                            "author": "charettes",
+                            "created_at": "2021-10-05 21:22:40+00:00",
+                            "merged_at": "2021-10-06 05:25:17+00:00",
+                            "closed_at": "2021-10-06 05:25:17+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #26430 -- Removed dead branch handling in sql.Query.get_count.\n\nNow that sql.Query.get_aggregation properly deals with empty result sets\nsummary Count annotations cannot result in None.",
+                                    "commited_at": "2021-10-05 21:26:48+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Used Python 3.10 for docs and linters GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 19:11:29+00:00",
+                            "merged_at": "2021-10-11 18:52:58+00:00",
+                            "closed_at": "2021-10-11 18:52:58+00:00",
+                            "commits": [
+                                {
+                                    "message": "Reverted \"Pinned flake8 == 3.9.2 in GitHub actions.\"\n\nThis reverts commit f2a28e11d910f2aba67f62ad2d7870d24b4ce24b.",
+                                    "commited_at": "2021-10-11 16:47:02+00:00"
+                                },
+                                {
+                                    "message": "Used Python 3.10 for docs and linters GitHub actions.",
+                                    "commited_at": "2021-10-11 18:10:59+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Improved docs regarding UTF-8 support with Apache and mod_wsgi.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-05 12:52:15+00:00",
+                            "merged_at": "2021-10-08 13:49:57+00:00",
+                            "closed_at": "2021-10-08 13:49:57+00:00",
+                            "commits": [
+                                {
+                                    "message": "Improved docs regarding UTF-8 support with Apache and mod_wsgi.",
+                                    "commited_at": "2021-10-08 10:26:06+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32074 -- Doc'd Python 3.10 compatibility in Django 3.2.x.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 10:42:45+00:00",
+                            "merged_at": "2021-10-05 11:30:41+00:00",
+                            "closed_at": "2021-10-05 11:30:41+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32074 -- Doc'd Python 3.10 compatibility in Django 3.2.x.",
+                                    "commited_at": "2021-10-05 09:53:38+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #33029 -- Fixed popups Selenium tests in headless mode.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 10:16:45+00:00",
+                            "merged_at": "2021-10-06 10:00:19+00:00",
+                            "closed_at": "2021-10-06 10:00:19+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #33029 -- Fixed popups Selenium tests in headless mode.\n\nCo-authored-by: Yash Jhunjhunwala <yash@jhunjhunwalaadvisors.com>",
+                                    "commited_at": "2021-10-06 09:24:07+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "[3.2.x] Refs #32074 -- Used asyncio.get_running_loop() instead of get_event_loop() on Python 3.7+.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 09:38:58+00:00",
+                            "merged_at": "2021-10-05 10:39:13+00:00",
+                            "closed_at": "2021-10-05 10:39:13+00:00",
+                            "commits": [
+                                {
+                                    "message": "[3.2.x] Refs #32074 -- Used asyncio.get_running_loop() instead of get_event_loop() on Python 3.7+.\n\nUsing asyncio.get_event_loop() when there is no running event loop was\ndeprecated in Python 3.10, see https://bugs.python.org/issue39529.",
+                                    "commited_at": "2021-10-05 09:36:30+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Removed easy_install example from Release How-To.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 08:06:22+00:00",
+                            "merged_at": "2021-10-05 08:48:38+00:00",
+                            "closed_at": "2021-10-05 08:48:38+00:00",
+                            "commits": [
+                                {
+                                    "message": "Dropped easy_install example from Release How-To.\n\neasy_install was deprecated in 2019.\nhttps://setuptools.pypa.io/en/latest/history.html#v42-0-0",
+                                    "commited_at": "2021-10-05 08:05:07+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32074 -- Added Python 3.10 to classifiers and tox.ini.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 06:11:07+00:00",
+                            "merged_at": "2021-10-05 07:59:10+00:00",
+                            "closed_at": "2021-10-05 07:59:10+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32074 -- Added Python 3.10 to classifiers and tox.ini.",
+                                    "commited_at": "2021-10-05 06:18:51+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #29026 -- Added `log()` to makemigrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-05 01:41:47+00:00",
+                            "merged_at": "2021-10-05 06:02:09+00:00",
+                            "closed_at": "2021-10-05 06:02:09+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #29026 -- Added log() to makemigrations.",
+                                    "commited_at": "2021-10-05 04:57:01+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #23408 -- Added migrations questioner prompt for adding unique fields with a callable default.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-04 18:51:49+00:00",
+                            "merged_at": "2021-10-06 06:58:32+00:00",
+                            "closed_at": "2021-10-06 06:58:32+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #23408 -- Added migrations questioner prompt for adding unique fields with a callable default.",
+                                    "commited_at": "2021-10-06 06:05:33+00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "time_to_open": {
+                    "mean": "-1 day, 0:08:04.750000",
+                    "median": "-1 day, 23:54:04",
+                    "percentile_95": "1:16:35.100000",
+                    "total_prs": [
+                        {
+                            "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-09 17:06:53+00:00",
+                            "merged_at": "2021-10-14 06:13:23+00:00",
+                            "closed_at": "2021-10-14 06:13:23+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps.",
+                                    "commited_at": "2021-10-13 07:51:44+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32900 -- Restored '[y/N]' in questioner prompt when merging migrations.",
+                            "author": "sh-cho",
+                            "created_at": "2021-10-09 14:58:03+00:00",
+                            "merged_at": "2021-10-11 07:40:06+00:00",
+                            "closed_at": "2021-10-11 07:40:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32900 -- Restored '[y/N]' in questioner prompt when merging migrations.\n\nRegression in 02bc7161ec477afd4a7b328936eb8adac078d7b9.",
+                                    "commited_at": "2021-10-11 07:04:09+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33149 -- Made test runner --pdb option work with subTest().",
+                            "author": "abhiabhi94",
+                            "created_at": "2021-10-08 18:48:19+00:00",
+                            "merged_at": "2021-10-11 08:47:34+00:00",
+                            "closed_at": "2021-10-11 08:47:34+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33149 -- Made --pdb option work with subTest().\n\nThanks Lucidot for the report and Mariusz for the intial\nsuggestion on the ticket.",
+                                    "commited_at": "2021-10-08 18:46:08+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33178 -- Made createsuperuser validate required fields passed in options in interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-08 13:34:21+00:00",
+                            "merged_at": "2021-10-12 06:42:51+00:00",
+                            "closed_at": "2021-10-12 06:42:51+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #33178 -- Added createsuperuser tests for validation of foreign keys.",
+                                    "commited_at": "2021-10-12 05:54:50+00:00"
+                                },
+                                {
+                                    "message": "Fixed #33178 -- Made createsuperuser validate required fields passed in options in interactive mode.",
+                                    "commited_at": "2021-10-12 06:08:05+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #31354: Properly reconstruct host header in presence of X-Forwarded-* header.",
+                            "author": "sreehari1997",
+                            "created_at": "2021-10-08 09:47:41+00:00",
+                            "merged_at": null,
+                            "closed_at": null,
+                            "commits": [
+                                {
+                                    "message": "Fixed #31354: Properly reconstruct host header in presence of X-Forwarded-* header\n\nCo-authored-by: Florian <florian@apolloner.eu>",
+                                    "commited_at": "2021-10-08 09:36:38+00:00"
+                                },
+                                {
+                                    "message": "Fixed #31354: Lint fix",
+                                    "commited_at": "2021-10-08 10:05:29+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33022 -- Fixed isolation of migrations.test_executor.ExecutorTests.test_custom_user().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-08 06:04:16+00:00",
+                            "merged_at": "2021-10-08 13:51:04+00:00",
+                            "closed_at": "2021-10-08 13:51:04+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33022 -- Fixed isolation of migrations.test_executor.ExecutorTests.test_custom_user().",
+                                    "commited_at": "2021-10-08 05:50:05+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ticket 28592 - Update security CSRF documentation",
+                            "author": "tommcn",
+                            "created_at": "2021-10-08 00:21:12+00:00",
+                            "merged_at": null,
+                            "closed_at": null,
+                            "commits": [
+                                {
+                                    "message": "Move how-to material out of CSRF reference",
+                                    "commited_at": "2021-10-07 14:22:43+00:00"
+                                },
+                                {
+                                    "message": "Fix build errors",
+                                    "commited_at": "2021-10-07 14:44:06+00:00"
+                                },
+                                {
+                                    "message": "Added new CSRF information to topic",
+                                    "commited_at": "2021-10-07 23:42:00+00:00"
+                                },
+                                {
+                                    "message": "Implement recommendations from previous PR",
+                                    "commited_at": "2021-10-08 00:18:37+00:00"
+                                },
+                                {
+                                    "message": "Spelling",
+                                    "commited_at": "2021-10-08 00:24:47+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #33166 -- Added field to context when rendering widget.",
+                            "author": "jrief",
+                            "created_at": "2021-10-07 23:24:44+00:00",
+                            "merged_at": null,
+                            "closed_at": null,
+                            "commits": [
+                                {
+                                    "message": "add field to context when rendering widget",
+                                    "commited_at": "2021-10-07 23:22:30+00:00"
+                                },
+                                {
+                                    "message": "fix isort complain",
+                                    "commited_at": "2021-10-07 23:27:04+00:00"
+                                },
+                                {
+                                    "message": "Merge remote-tracking branch 'django/main' into ticket_33166",
+                                    "commited_at": "2021-11-03 15:06:09+00:00"
+                                },
+                                {
+                                    "message": "update context with field in render() method",
+                                    "commited_at": "2021-11-03 16:26:42+00:00"
+                                },
+                                {
+                                    "message": "revert 4b9ab388b6",
+                                    "commited_at": "2021-11-03 16:40:21+00:00"
+                                },
+                                {
+                                    "message": "revert 4b9ab388b6 partially",
+                                    "commited_at": "2021-11-03 16:47:38+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33151 -- Fixed createsuperuser crash for many-to-many required fields in non-interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-07 10:03:56+00:00",
+                            "merged_at": "2021-10-07 11:10:52+00:00",
+                            "closed_at": "2021-10-07 11:10:52+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33151 -- Fixed createsuperuser crash for many-to-many required fields in non-interactive mode.",
+                                    "commited_at": "2021-10-07 10:37:16+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #26430 -- Removed unused branch in sql.Query.get_count().",
+                            "author": "charettes",
+                            "created_at": "2021-10-05 21:22:40+00:00",
+                            "merged_at": "2021-10-06 05:25:17+00:00",
+                            "closed_at": "2021-10-06 05:25:17+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #26430 -- Removed dead branch handling in sql.Query.get_count.\n\nNow that sql.Query.get_aggregation properly deals with empty result sets\nsummary Count annotations cannot result in None.",
+                                    "commited_at": "2021-10-05 21:26:48+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Used Python 3.10 for docs and linters GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 19:11:29+00:00",
+                            "merged_at": "2021-10-11 18:52:58+00:00",
+                            "closed_at": "2021-10-11 18:52:58+00:00",
+                            "commits": [
+                                {
+                                    "message": "Reverted \"Pinned flake8 == 3.9.2 in GitHub actions.\"\n\nThis reverts commit f2a28e11d910f2aba67f62ad2d7870d24b4ce24b.",
+                                    "commited_at": "2021-10-11 16:47:02+00:00"
+                                },
+                                {
+                                    "message": "Used Python 3.10 for docs and linters GitHub actions.",
+                                    "commited_at": "2021-10-11 18:10:59+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Improved docs regarding UTF-8 support with Apache and mod_wsgi.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-05 12:52:15+00:00",
+                            "merged_at": "2021-10-08 13:49:57+00:00",
+                            "closed_at": "2021-10-08 13:49:57+00:00",
+                            "commits": [
+                                {
+                                    "message": "Improved docs regarding UTF-8 support with Apache and mod_wsgi.",
+                                    "commited_at": "2021-10-08 10:26:06+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32074 -- Doc'd Python 3.10 compatibility in Django 3.2.x.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 10:42:45+00:00",
+                            "merged_at": "2021-10-05 11:30:41+00:00",
+                            "closed_at": "2021-10-05 11:30:41+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32074 -- Doc'd Python 3.10 compatibility in Django 3.2.x.",
+                                    "commited_at": "2021-10-05 09:53:38+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #33029 -- Fixed popups Selenium tests in headless mode.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 10:16:45+00:00",
+                            "merged_at": "2021-10-06 10:00:19+00:00",
+                            "closed_at": "2021-10-06 10:00:19+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #33029 -- Fixed popups Selenium tests in headless mode.\n\nCo-authored-by: Yash Jhunjhunwala <yash@jhunjhunwalaadvisors.com>",
+                                    "commited_at": "2021-10-06 09:24:07+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "[3.2.x] Refs #32074 -- Used asyncio.get_running_loop() instead of get_event_loop() on Python 3.7+.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 09:38:58+00:00",
+                            "merged_at": "2021-10-05 10:39:13+00:00",
+                            "closed_at": "2021-10-05 10:39:13+00:00",
+                            "commits": [
+                                {
+                                    "message": "[3.2.x] Refs #32074 -- Used asyncio.get_running_loop() instead of get_event_loop() on Python 3.7+.\n\nUsing asyncio.get_event_loop() when there is no running event loop was\ndeprecated in Python 3.10, see https://bugs.python.org/issue39529.",
+                                    "commited_at": "2021-10-05 09:36:30+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ticket #27925 Wrap lines at 79 chars",
+                            "author": "za",
+                            "created_at": "2021-10-05 08:45:12+00:00",
+                            "merged_at": null,
+                            "closed_at": null,
+                            "commits": [
+                                {
+                                    "message": "Ticket #27925 Wrap lines at 79 chars\n\nInitial PR is here:\nhttps://github.com/django/django/pull/14200\n\ncredit goes to https://github.com/kshitijraghav",
+                                    "commited_at": "2021-10-05 08:42:13+00:00"
+                                },
+                                {
+                                    "message": "Ticket #27925 web should be in lower case.\n\nReference:\nhttps://docs.djangoproject.com/en/4.0/internals/contributing/writing-documentation/#commonly-used-terms",
+                                    "commited_at": "2021-10-05 08:55:06+00:00"
+                                },
+                                {
+                                    "message": "Fixed web to lower case",
+                                    "commited_at": "2021-10-05 13:18:13+00:00"
+                                },
+                                {
+                                    "message": "Update docs/howto/deployment/wsgi/modwsgi.txt\r\n\r\nAdd `python -m`\n\nCo-authored-by: Jacob Walls <jacobtylerwalls@gmail.com>",
+                                    "commited_at": "2021-11-24 14:25:16+00:00"
+                                },
+                                {
+                                    "message": "Use python -m pip install\n\nAs suggested:\nhttps://github.com/django/django/pull/14939#discussion_r756066685",
+                                    "commited_at": "2021-11-26 22:48:59+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Removed easy_install example from Release How-To.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 08:06:22+00:00",
+                            "merged_at": "2021-10-05 08:48:38+00:00",
+                            "closed_at": "2021-10-05 08:48:38+00:00",
+                            "commits": [
+                                {
+                                    "message": "Dropped easy_install example from Release How-To.\n\neasy_install was deprecated in 2019.\nhttps://setuptools.pypa.io/en/latest/history.html#v42-0-0",
+                                    "commited_at": "2021-10-05 08:05:07+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32074 -- Added Python 3.10 to classifiers and tox.ini.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 06:11:07+00:00",
+                            "merged_at": "2021-10-05 07:59:10+00:00",
+                            "closed_at": "2021-10-05 07:59:10+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32074 -- Added Python 3.10 to classifiers and tox.ini.",
+                                    "commited_at": "2021-10-05 06:18:51+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #29026 -- Added `log()` to makemigrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-05 01:41:47+00:00",
+                            "merged_at": "2021-10-05 06:02:09+00:00",
+                            "closed_at": "2021-10-05 06:02:09+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #29026 -- Added log() to makemigrations.",
+                                    "commited_at": "2021-10-05 04:57:01+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #23408 -- Added migrations questioner prompt for adding unique fields with a callable default.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-04 18:51:49+00:00",
+                            "merged_at": "2021-10-06 06:58:32+00:00",
+                            "closed_at": "2021-10-06 06:58:32+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #23408 -- Added migrations questioner prompt for adding unique fields with a callable default.",
+                                    "commited_at": "2021-10-06 06:05:33+00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "time_to_review": {
+                    "mean": "2 days, 14:09:13.357143",
+                    "median": "0:44:26.500000",
+                    "percentile_95": "11 days, 9:37:10.300000",
+                    "total_prs": [
+                        {
+                            "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-09 17:06:53+00:00",
+                            "first_review_at": "2021-10-12 09:44:43+00:00"
+                        },
+                        {
+                            "title": "Refs #32900 -- Restored '[y/N]' in questioner prompt when merging migrations.",
+                            "author": "sh-cho",
+                            "created_at": "2021-10-09 14:58:03+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33149 -- Made test runner --pdb option work with subTest().",
+                            "author": "abhiabhi94",
+                            "created_at": "2021-10-08 18:48:19+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33178 -- Made createsuperuser validate required fields passed in options in interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-08 13:34:21+00:00",
+                            "first_review_at": "2021-10-11 07:51:25+00:00"
+                        },
+                        {
+                            "title": "Fixed #31354: Properly reconstruct host header in presence of X-Forwarded-* header.",
+                            "author": "sreehari1997",
+                            "created_at": "2021-10-08 09:47:41+00:00",
+                            "first_review_at": "2021-10-18 21:00:20+00:00"
+                        },
+                        {
+                            "title": "Fixed #33022 -- Fixed isolation of migrations.test_executor.ExecutorTests.test_custom_user().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-08 06:04:16+00:00",
+                            "first_review_at": "2021-10-08 06:49:00+00:00"
+                        },
+                        {
+                            "title": "Ticket 28592 - Update security CSRF documentation",
+                            "author": "tommcn",
+                            "created_at": "2021-10-08 00:21:12+00:00",
+                            "first_review_at": "2021-11-05 13:52:29+00:00"
+                        },
+                        {
+                            "title": "Refs #33166 -- Added field to context when rendering widget.",
+                            "author": "jrief",
+                            "created_at": "2021-10-07 23:24:44+00:00",
+                            "first_review_at": "2021-10-16 19:21:37+00:00"
+                        },
+                        {
+                            "title": "Fixed #33151 -- Fixed createsuperuser crash for many-to-many required fields in non-interactive mode.",
+                            "author": "christophehenry",
+                            "created_at": "2021-10-07 10:03:56+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Refs #26430 -- Removed unused branch in sql.Query.get_count().",
+                            "author": "charettes",
+                            "created_at": "2021-10-05 21:22:40+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Used Python 3.10 for docs and linters GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 19:11:29+00:00",
+                            "first_review_at": "2021-10-05 19:18:15+00:00"
+                        },
+                        {
+                            "title": "Improved docs regarding UTF-8 support with Apache and mod_wsgi.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-05 12:52:15+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Refs #32074 -- Doc'd Python 3.10 compatibility in Django 3.2.x.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 10:42:45+00:00",
+                            "first_review_at": "2021-10-05 10:47:24+00:00"
+                        },
+                        {
+                            "title": "Refs #33029 -- Fixed popups Selenium tests in headless mode.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 10:16:45+00:00",
+                            "first_review_at": "2021-10-06 08:47:38+00:00"
+                        },
+                        {
+                            "title": "[3.2.x] Refs #32074 -- Used asyncio.get_running_loop() instead of get_event_loop() on Python 3.7+.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 09:38:58+00:00",
+                            "first_review_at": "2021-10-05 10:02:30+00:00"
+                        },
+                        {
+                            "title": "Ticket #27925 Wrap lines at 79 chars",
+                            "author": "za",
+                            "created_at": "2021-10-05 08:45:12+00:00",
+                            "first_review_at": "2021-10-05 08:47:26+00:00"
+                        },
+                        {
+                            "title": "Removed easy_install example from Release How-To.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-05 08:06:22+00:00",
+                            "first_review_at": "2021-10-05 08:12:07+00:00"
+                        },
+                        {
+                            "title": "Refs #32074 -- Added Python 3.10 to classifiers and tox.ini.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-05 06:11:07+00:00",
+                            "first_review_at": "2021-10-05 06:16:32+00:00"
+                        },
+                        {
+                            "title": "Refs #29026 -- Added `log()` to makemigrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-05 01:41:47+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #23408 -- Added migrations questioner prompt for adding unique fields with a callable default.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-04 18:51:49+00:00",
+                            "first_review_at": "2021-10-04 19:35:58+00:00"
+                        }
+                    ],
+                    "unreviewed_prs": 6,
+                    "prs_over_24h": 11
+                }
+            }
+        },
+        {
+            "2021-10-11T00:00:00+00:00-2021-10-17T23:59:59+00:00": {
+                "merge_rate": {
+                    "total_prs": [
+                        {
+                            "author": "fraziern",
+                            "merged_at": "2021-10-18 06:24:08+00:00"
+                        },
+                        {
+                            "author": "iurisilvio",
+                            "merged_at": "2021-10-27 11:36:45+00:00"
+                        },
+                        {
+                            "author": "hannseman",
+                            "merged_at": "2021-10-18 07:36:25+00:00"
+                        },
+                        {
+                            "author": "charettes",
+                            "merged_at": "2021-10-19 05:32:42+00:00"
+                        },
+                        {
+                            "author": "ar4s",
+                            "merged_at": "2021-10-21 15:26:04+00:00"
+                        },
+                        {
+                            "author": "claudep",
+                            "merged_at": "2021-10-15 07:56:21+00:00"
+                        },
+                        {
+                            "author": "carltongibson",
+                            "merged_at": "2021-10-15 05:29:56+00:00"
+                        },
+                        {
+                            "author": "claudep",
+                            "merged_at": "2021-10-14 17:56:37+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-15 07:58:35+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-14 09:36:51+00:00"
+                        },
+                        {
+                            "author": "romanvm",
+                            "merged_at": "2021-11-03 06:40:49+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-14 04:04:56+00:00"
+                        },
+                        {
+                            "author": "ecederstrand",
+                            "merged_at": "2021-12-07 18:13:38+00:00"
+                        },
+                        {
+                            "author": "jacobtylerwalls",
+                            "merged_at": "2021-10-15 05:28:03+00:00"
+                        },
+                        {
+                            "author": "ecederstrand",
+                            "merged_at": "2021-10-13 05:31:25+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-12 13:16:01+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-12 18:38:37+00:00"
+                        },
+                        {
+                            "author": "sih4sing5hong5",
+                            "merged_at": "2021-10-13 07:13:37+00:00"
+                        },
+                        {
+                            "author": "sreehari1997",
+                            "merged_at": "2021-10-18 08:26:14+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-12 05:42:56+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-12 04:21:15+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-11 07:03:15+00:00"
+                        },
+                        {
+                            "author": "lieryan",
+                            "merged_at": "2021-11-11 21:25:49+00:00"
+                        }
+                    ],
+                    "prs_authors": [
+                        "fraziern",
+                        "iurisilvio",
+                        "hannseman",
+                        "charettes",
+                        "ar4s",
+                        "claudep",
+                        "carltongibson",
+                        "felixxm",
+                        "romanvm",
+                        "ecederstrand",
+                        "jacobtylerwalls",
+                        "sih4sing5hong5",
+                        "sreehari1997",
+                        "lieryan"
+                    ],
+                    "merge_rate": 1.6428571428571428
+                },
+                "hotfixes": {
+                    "hotfix_list": []
+                },
+                "merge_time": {
+                    "mean": "4 days, 11:50:57.434783",
+                    "median": "14:22:31",
+                    "percentile_95": "22 days, 18:49:17.800000",
+                    "total_prs": [
+                        {
+                            "title": "Fixed #33198 -- Corrected BinaryField.max_length docs.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-16 21:34:23+00:00",
+                            "merged_at": "2021-10-18 06:24:08+00:00"
+                        },
+                        {
+                            "title": "Fixed #33201 -- Made RenameModel operation a noop for models with db_table.",
+                            "author": "iurisilvio",
+                            "created_at": "2021-10-16 09:31:21+00:00",
+                            "merged_at": "2021-10-27 11:36:45+00:00"
+                        },
+                        {
+                            "title": "Fixed #33194 -- Fixed migrations when altering a field with functional indexes/unique constraints on SQLite.",
+                            "author": "hannseman",
+                            "created_at": "2021-10-15 20:19:33+00:00",
+                            "merged_at": "2021-10-18 07:36:25+00:00"
+                        },
+                        {
+                            "title": "Fixed #33197 -- Made field rename with prior matching db_column change a noop.",
+                            "author": "charettes",
+                            "created_at": "2021-10-15 17:13:16+00:00",
+                            "merged_at": "2021-10-19 05:32:42+00:00"
+                        },
+                        {
+                            "title": "Fixed #33210 -- Clarified docs for sitemaps ping_google() helper.",
+                            "author": "ar4s",
+                            "created_at": "2021-10-15 09:28:48+00:00",
+                            "merged_at": "2021-10-21 15:26:04+00:00"
+                        },
+                        {
+                            "title": "Fixed #33195 -- Refactored urlize() based on a class.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:33:50+00:00",
+                            "merged_at": "2021-10-15 07:56:21+00:00"
+                        },
+                        {
+                            "title": "Refs #30509 -- Adjusted internal FileResponse variable name.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-14 17:16:26+00:00",
+                            "merged_at": "2021-10-15 05:29:56+00:00"
+                        },
+                        {
+                            "title": "Removed unused DOTS list.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:00:45+00:00",
+                            "merged_at": "2021-10-14 17:56:37+00:00"
+                        },
+                        {
+                            "title": "Refs #32074 -- Removed usage of deprecated asyncore and smtpd modules.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 09:44:28+00:00",
+                            "merged_at": "2021-10-15 07:58:35+00:00"
+                        },
+                        {
+                            "title": "Refs #27131 -- Removed SMTPBackendTests.test_server_login().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 08:32:10+00:00",
+                            "merged_at": "2021-10-14 09:36:51+00:00"
+                        },
+                        {
+                            "title": "Fixed #32691 -- Made Exact lookup on BooleanFields compare directly to a boolean value on MySQL.",
+                            "author": "romanvm",
+                            "created_at": "2021-10-13 21:04:09+00:00",
+                            "merged_at": "2021-11-03 06:40:49+00:00"
+                        },
+                        {
+                            "title": "Used :source: role in docs/howto/custom-template-tags.txt.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-13 19:05:05+00:00",
+                            "merged_at": "2021-10-14 04:04:56+00:00"
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed customizing Query's datastructure classes.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-13 05:34:07+00:00",
+                            "merged_at": "2021-12-07 18:13:38+00:00"
+                        },
+                        {
+                            "title": "Fixed #23953 -- Made makemigrations continue number sequence for squashed migrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-12 19:14:35+00:00",
+                            "merged_at": "2021-10-15 05:28:03+00:00"
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed Query subclasses to build filters.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-12 15:47:25+00:00",
+                            "merged_at": "2021-10-13 05:31:25+00:00"
+                        },
+                        {
+                            "title": "Added 'formatter' to spelling wordlist.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 11:21:41+00:00",
+                            "merged_at": "2021-10-12 13:16:01+00:00"
+                        },
+                        {
+                            "title": "Bumped versions in pre-commit and npm configurations.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 09:14:47+00:00",
+                            "merged_at": "2021-10-12 18:38:37+00:00"
+                        },
+                        {
+                            "title": "Doc'd a precise exception type in Paginator.page() docs.",
+                            "author": "sih4sing5hong5",
+                            "created_at": "2021-10-12 08:57:18+00:00",
+                            "merged_at": "2021-10-13 07:13:37+00:00"
+                        },
+                        {
+                            "title": "Fixed #33172 -- Added example of modifying upload handlers on the fly for CBVs.",
+                            "author": "sreehari1997",
+                            "created_at": "2021-10-12 08:12:43+00:00",
+                            "merged_at": "2021-10-18 08:26:14+00:00"
+                        },
+                        {
+                            "title": "Refs #21755 -- Fixed createsuperuser crash for required foreign keys passed in options in interactive mode.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 05:06:10+00:00",
+                            "merged_at": "2021-10-12 05:42:56+00:00"
+                        },
+                        {
+                            "title": "Refs #29628, Refs #33178 -- Made createsuperuser validate password against required fields passed in options.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 09:59:16+00:00",
+                            "merged_at": "2021-10-12 04:21:15+00:00"
+                        },
+                        {
+                            "title": "Pinned flake8 == 3.9.2 in GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 06:07:21+00:00",
+                            "merged_at": "2021-10-11 07:03:15+00:00"
+                        },
+                        {
+                            "title": "Fixed #33269 -- Made AnonymousUser/PermissionsMixin.has_perms() raise ValueError on string or non-iterable perm_list.",
+                            "author": "lieryan",
+                            "created_at": "2021-10-11 04:15:07+00:00",
+                            "merged_at": "2021-11-11 21:25:49+00:00"
+                        }
+                    ],
+                    "merged_pr_rate": 100.0
+                },
+                "pr_size": {
+                    "total_prs": [
+                        {
+                            "additions": 2,
+                            "deletions": 2
+                        },
+                        {
+                            "additions": 28,
+                            "deletions": 5
+                        },
+                        {
+                            "additions": 64,
+                            "deletions": 6
+                        },
+                        {
+                            "additions": 39,
+                            "deletions": 12
+                        },
+                        {
+                            "additions": 10,
+                            "deletions": 5
+                        },
+                        {
+                            "additions": 95,
+                            "deletions": 72
+                        },
+                        {
+                            "additions": 2,
+                            "deletions": 2
+                        },
+                        {
+                            "additions": 0,
+                            "deletions": 3
+                        },
+                        {
+                            "additions": 59,
+                            "deletions": 82
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 38
+                        },
+                        {
+                            "additions": 51,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 2,
+                            "deletions": 2
+                        },
+                        {
+                            "additions": 14,
+                            "deletions": 7
+                        },
+                        {
+                            "additions": 39,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 4,
+                            "deletions": 4
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 21,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 30,
+                            "deletions": 4
+                        },
+                        {
+                            "additions": 43,
+                            "deletions": 3
+                        },
+                        {
+                            "additions": 1,
+                            "deletions": 1
+                        },
+                        {
+                            "additions": 19,
+                            "deletions": 0
+                        }
+                    ],
+                    "total_mean": 33.82608695652174,
+                    "total_median": 21.0,
+                    "total_percentile_95": 133.8999999999999,
+                    "rate_mean": 12.0,
+                    "rate_median": 5.0,
+                    "rate_percentile_95": 49.899999999999984
+                },
+                "time_to_merge": {
+                    "mean": "5:01:34.695652",
+                    "median": "1:11:02",
+                    "percentile_95": "17:54:51.900000",
+                    "merged_prs": [
+                        {
+                            "title": "Fixed #33198 -- Corrected BinaryField.max_length docs.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-16 21:34:23+00:00",
+                            "merged_at": "2021-10-18 06:24:08+00:00",
+                            "closed_at": "2021-10-18 06:24:08+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33198 -- Corrected BinaryField.max_length docs.",
+                                    "commited_at": "2021-10-18 05:27:00+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33201 -- Made RenameModel operation a noop for models with db_table.",
+                            "author": "iurisilvio",
+                            "created_at": "2021-10-16 09:31:21+00:00",
+                            "merged_at": "2021-10-27 11:36:45+00:00",
+                            "closed_at": "2021-10-27 11:36:45+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33201 -- Made RenameModel operation a noop for models with db_table.",
+                                    "commited_at": "2021-10-27 10:41:29+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33194 -- Fixed migrations when altering a field with functional indexes/unique constraints on SQLite.",
+                            "author": "hannseman",
+                            "created_at": "2021-10-15 20:19:33+00:00",
+                            "merged_at": "2021-10-18 07:36:25+00:00",
+                            "closed_at": "2021-10-18 07:36:25+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33194 -- Fixed migrations when altering a field with functional indexes/unique constraints on SQLite.\n\nThis adjusts Expressions.rename_table_references() to only update alias\nwhen needed.\n\nRegression in 83fcfc9ec8610540948815e127101f1206562ead.\n\nCo-authored-by: Simon Charette <charettes@users.noreply.github.com>",
+                                    "commited_at": "2021-10-18 06:25:23+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33197 -- Made field rename with prior matching db_column change a noop.",
+                            "author": "charettes",
+                            "created_at": "2021-10-15 17:13:16+00:00",
+                            "merged_at": "2021-10-19 05:32:42+00:00",
+                            "closed_at": "2021-10-19 05:32:42+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33197 -- Made field rename with prior matching db_column change a noop.\n\nThanks Jacob Walls for the report.",
+                                    "commited_at": "2021-10-19 04:46:35+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33210 -- Clarified docs for sitemaps ping_google() helper.",
+                            "author": "ar4s",
+                            "created_at": "2021-10-15 09:28:48+00:00",
+                            "merged_at": "2021-10-21 15:26:04+00:00",
+                            "closed_at": "2021-10-21 15:26:04+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33210 -- Clarified docs for sitemaps ping_google() helper.",
+                                    "commited_at": "2021-10-21 14:22:25+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33195 -- Refactored urlize() based on a class.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:33:50+00:00",
+                            "merged_at": "2021-10-15 07:56:21+00:00",
+                            "closed_at": "2021-10-15 07:56:21+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33195 -- Refactored urlize() based on a class.\n\nThis allows easier customization/",
+                                    "commited_at": "2021-10-15 07:20:01+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #30509 -- Adjusted internal FileResponse variable name.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-14 17:16:26+00:00",
+                            "merged_at": "2021-10-15 05:29:56+00:00",
+                            "closed_at": "2021-10-15 05:29:56+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #30509 -- Adjusted internal FileResponse variable name.",
+                                    "commited_at": "2021-10-14 17:14:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Removed unused DOTS list.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:00:45+00:00",
+                            "merged_at": "2021-10-14 17:56:37+00:00",
+                            "closed_at": "2021-10-14 17:56:37+00:00",
+                            "commits": [
+                                {
+                                    "message": "Removed unused DOTS list.\n\nUnused since 8b81dee60c1533e714a310fa5c3907356042a64c.",
+                                    "commited_at": "2021-10-14 16:59:55+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32074 -- Removed usage of deprecated asyncore and smtpd modules.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 09:44:28+00:00",
+                            "merged_at": "2021-10-15 07:58:35+00:00",
+                            "closed_at": "2021-10-15 07:58:35+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32074 -- Removed usage of deprecated asyncore and smtpd modules.\n\nasyncore and smtpd modules were deprecated in Python 3.10.",
+                                    "commited_at": "2021-10-14 09:48:43+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #27131 -- Removed SMTPBackendTests.test_server_login().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 08:32:10+00:00",
+                            "merged_at": "2021-10-14 09:36:51+00:00",
+                            "closed_at": "2021-10-14 09:36:52+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #27131 -- Removed SMTPBackendTests.test_server_login().\n\ntest_server_login() was a regression test for a crash when passing\nUnicode strings to SMTP server using CRAM-MD5 method on Python 2.\nPython 2 is no longer supported and test_server_login() passes even\nwithout FakeSMTPChannel.smtp_AUTH() because\nsmtplib.SMTPAuthenticationError is raised when AUTH is not implemented.",
+                                    "commited_at": "2021-10-14 08:23:52+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #32691 -- Made Exact lookup on BooleanFields compare directly to a boolean value on MySQL.",
+                            "author": "romanvm",
+                            "created_at": "2021-10-13 21:04:09+00:00",
+                            "merged_at": "2021-11-03 06:40:49+00:00",
+                            "closed_at": "2021-11-03 06:40:50+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #32691 -- Made Exact lookup on BooleanFields compare directly to a boolean value on MySQL.\n\nPerformance regression in 37e6c5b79bd0529a3c85b8c478e4002fd33a2a1d.\n\nThanks Todor Velichkov for the report.\n\nCo-authored-by: Mariusz Felisiak <felisiak.mariusz@gmail.com>",
+                                    "commited_at": "2021-11-02 20:30:21+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Used :source: role in docs/howto/custom-template-tags.txt.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-13 19:05:05+00:00",
+                            "merged_at": "2021-10-14 04:04:56+00:00",
+                            "closed_at": "2021-10-14 04:04:56+00:00",
+                            "commits": [
+                                {
+                                    "message": "Used :source: role in docs/howto/custom-template-tags.txt.",
+                                    "commited_at": "2021-10-13 19:04:35+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed customizing Query's datastructure classes.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-13 05:34:07+00:00",
+                            "merged_at": "2021-12-07 18:13:38+00:00",
+                            "closed_at": "2021-12-07 18:13:38+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #25265 -- Allowed customizing Query's datastructure classes.",
+                                    "commited_at": "2021-12-07 12:36:50+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #23953 -- Made makemigrations continue number sequence for squashed migrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-12 19:14:35+00:00",
+                            "merged_at": "2021-10-15 05:28:03+00:00",
+                            "closed_at": "2021-10-15 05:28:03+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #23953 -- Added MigrationAutodetector.parse_number() tests.",
+                                    "commited_at": "2021-10-15 04:59:31+00:00"
+                                },
+                                {
+                                    "message": "Fixed #23953 -- Made makemigrations continue number sequence for squashed migrations.",
+                                    "commited_at": "2021-10-15 04:59:31+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed Query subclasses to build filters.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-12 15:47:25+00:00",
+                            "merged_at": "2021-10-13 05:31:25+00:00",
+                            "closed_at": "2021-10-13 05:31:25+00:00",
+                            "commits": [
+                                {
+                                    "message": "Allow easier subclassing of the Query class",
+                                    "commited_at": "2021-10-12 15:46:01+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Added 'formatter' to spelling wordlist.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 11:21:41+00:00",
+                            "merged_at": "2021-10-12 13:16:01+00:00",
+                            "closed_at": "2021-10-12 13:16:01+00:00",
+                            "commits": [
+                                {
+                                    "message": "Added 'formatter' to spelling wordlist.",
+                                    "commited_at": "2021-10-12 11:20:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Bumped versions in pre-commit and npm configurations.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 09:14:47+00:00",
+                            "merged_at": "2021-10-12 18:38:37+00:00",
+                            "closed_at": "2021-10-12 18:38:37+00:00",
+                            "commits": [
+                                {
+                                    "message": "Bumped versions in pre-commit and npm configurations.",
+                                    "commited_at": "2021-10-12 09:14:07+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Doc'd a precise exception type in Paginator.page() docs.",
+                            "author": "sih4sing5hong5",
+                            "created_at": "2021-10-12 08:57:18+00:00",
+                            "merged_at": "2021-10-13 07:13:37+00:00",
+                            "closed_at": "2021-10-13 07:13:38+00:00",
+                            "commits": [
+                                {
+                                    "message": "Doc'd a precise exception type in Paginator.page() docs.",
+                                    "commited_at": "2021-10-13 06:46:46+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33172 -- Added example of modifying upload handlers on the fly for CBVs.",
+                            "author": "sreehari1997",
+                            "created_at": "2021-10-12 08:12:43+00:00",
+                            "merged_at": "2021-10-18 08:26:14+00:00",
+                            "closed_at": "2021-10-18 08:26:14+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33172 -- Added example of modifying upload handlers on the fly for CBVs.",
+                                    "commited_at": "2021-10-18 07:45:52+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #21755 -- Fixed createsuperuser crash for required foreign keys passed in options in interactive mode.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 05:06:10+00:00",
+                            "merged_at": "2021-10-12 05:42:56+00:00",
+                            "closed_at": "2021-10-12 05:42:56+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #21755 -- Fixed createsuperuser crash for required foreign keys passed in options in interactive mode.\n\nCo-authored-by: Mariusz Felisiak <felisiak.mariusz@gmail.com>",
+                                    "commited_at": "2021-10-12 04:59:46+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #29628, Refs #33178 -- Made createsuperuser validate password against required fields passed in options.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 09:59:16+00:00",
+                            "merged_at": "2021-10-12 04:21:15+00:00",
+                            "closed_at": "2021-10-12 04:21:15+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #29628, Refs #33178 -- Made createsuperuser validate password against required fields passed in options.",
+                                    "commited_at": "2021-10-11 09:58:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Pinned flake8 == 3.9.2 in GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 06:07:21+00:00",
+                            "merged_at": "2021-10-11 07:03:15+00:00",
+                            "closed_at": "2021-10-11 07:03:15+00:00",
+                            "commits": [
+                                {
+                                    "message": "Pinned flake8 == 3.9.2 in GitHub actions.",
+                                    "commited_at": "2021-10-11 06:05:00+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33269 -- Made AnonymousUser/PermissionsMixin.has_perms() raise ValueError on string or non-iterable perm_list.",
+                            "author": "lieryan",
+                            "created_at": "2021-10-11 04:15:07+00:00",
+                            "merged_at": "2021-11-11 21:25:49+00:00",
+                            "closed_at": "2021-11-11 21:25:50+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33269 -- Made AnonymousUser/PermissionsMixin.has_perms() raise ValueError on string or non-iterable perm_list.",
+                                    "commited_at": "2021-11-11 19:26:29+00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "time_to_open": {
+                    "mean": "-7 days, 20:36:57.521739",
+                    "median": "-1 day, 10:13:49",
+                    "percentile_95": "0:05:59.700000",
+                    "total_prs": [
+                        {
+                            "title": "Fixed #33198 -- Corrected BinaryField.max_length docs.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-16 21:34:23+00:00",
+                            "merged_at": "2021-10-18 06:24:08+00:00",
+                            "closed_at": "2021-10-18 06:24:08+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33198 -- Corrected BinaryField.max_length docs.",
+                                    "commited_at": "2021-10-18 05:27:00+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33201 -- Made RenameModel operation a noop for models with db_table.",
+                            "author": "iurisilvio",
+                            "created_at": "2021-10-16 09:31:21+00:00",
+                            "merged_at": "2021-10-27 11:36:45+00:00",
+                            "closed_at": "2021-10-27 11:36:45+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33201 -- Made RenameModel operation a noop for models with db_table.",
+                                    "commited_at": "2021-10-27 10:41:29+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33194 -- Fixed migrations when altering a field with functional indexes/unique constraints on SQLite.",
+                            "author": "hannseman",
+                            "created_at": "2021-10-15 20:19:33+00:00",
+                            "merged_at": "2021-10-18 07:36:25+00:00",
+                            "closed_at": "2021-10-18 07:36:25+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33194 -- Fixed migrations when altering a field with functional indexes/unique constraints on SQLite.\n\nThis adjusts Expressions.rename_table_references() to only update alias\nwhen needed.\n\nRegression in 83fcfc9ec8610540948815e127101f1206562ead.\n\nCo-authored-by: Simon Charette <charettes@users.noreply.github.com>",
+                                    "commited_at": "2021-10-18 06:25:23+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33197 -- Made field rename with prior matching db_column change a noop.",
+                            "author": "charettes",
+                            "created_at": "2021-10-15 17:13:16+00:00",
+                            "merged_at": "2021-10-19 05:32:42+00:00",
+                            "closed_at": "2021-10-19 05:32:42+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33197 -- Made field rename with prior matching db_column change a noop.\n\nThanks Jacob Walls for the report.",
+                                    "commited_at": "2021-10-19 04:46:35+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33210 -- Clarified docs for sitemaps ping_google() helper.",
+                            "author": "ar4s",
+                            "created_at": "2021-10-15 09:28:48+00:00",
+                            "merged_at": "2021-10-21 15:26:04+00:00",
+                            "closed_at": "2021-10-21 15:26:04+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33210 -- Clarified docs for sitemaps ping_google() helper.",
+                                    "commited_at": "2021-10-21 14:22:25+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33195 -- Refactored urlize() based on a class.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:33:50+00:00",
+                            "merged_at": "2021-10-15 07:56:21+00:00",
+                            "closed_at": "2021-10-15 07:56:21+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33195 -- Refactored urlize() based on a class.\n\nThis allows easier customization/",
+                                    "commited_at": "2021-10-15 07:20:01+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #30509 -- Adjusted internal FileResponse variable name.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-14 17:16:26+00:00",
+                            "merged_at": "2021-10-15 05:29:56+00:00",
+                            "closed_at": "2021-10-15 05:29:56+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #30509 -- Adjusted internal FileResponse variable name.",
+                                    "commited_at": "2021-10-14 17:14:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Removed unused DOTS list.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:00:45+00:00",
+                            "merged_at": "2021-10-14 17:56:37+00:00",
+                            "closed_at": "2021-10-14 17:56:37+00:00",
+                            "commits": [
+                                {
+                                    "message": "Removed unused DOTS list.\n\nUnused since 8b81dee60c1533e714a310fa5c3907356042a64c.",
+                                    "commited_at": "2021-10-14 16:59:55+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32074 -- Removed usage of deprecated asyncore and smtpd modules.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 09:44:28+00:00",
+                            "merged_at": "2021-10-15 07:58:35+00:00",
+                            "closed_at": "2021-10-15 07:58:35+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32074 -- Removed usage of deprecated asyncore and smtpd modules.\n\nasyncore and smtpd modules were deprecated in Python 3.10.",
+                                    "commited_at": "2021-10-14 09:48:43+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #27131 -- Removed SMTPBackendTests.test_server_login().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 08:32:10+00:00",
+                            "merged_at": "2021-10-14 09:36:51+00:00",
+                            "closed_at": "2021-10-14 09:36:52+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #27131 -- Removed SMTPBackendTests.test_server_login().\n\ntest_server_login() was a regression test for a crash when passing\nUnicode strings to SMTP server using CRAM-MD5 method on Python 2.\nPython 2 is no longer supported and test_server_login() passes even\nwithout FakeSMTPChannel.smtp_AUTH() because\nsmtplib.SMTPAuthenticationError is raised when AUTH is not implemented.",
+                                    "commited_at": "2021-10-14 08:23:52+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #32691 -- Made Exact lookup on BooleanFields compare directly to a boolean value on MySQL.",
+                            "author": "romanvm",
+                            "created_at": "2021-10-13 21:04:09+00:00",
+                            "merged_at": "2021-11-03 06:40:49+00:00",
+                            "closed_at": "2021-11-03 06:40:50+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #32691 -- Made Exact lookup on BooleanFields compare directly to a boolean value on MySQL.\n\nPerformance regression in 37e6c5b79bd0529a3c85b8c478e4002fd33a2a1d.\n\nThanks Todor Velichkov for the report.\n\nCo-authored-by: Mariusz Felisiak <felisiak.mariusz@gmail.com>",
+                                    "commited_at": "2021-11-02 20:30:21+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Used :source: role in docs/howto/custom-template-tags.txt.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-13 19:05:05+00:00",
+                            "merged_at": "2021-10-14 04:04:56+00:00",
+                            "closed_at": "2021-10-14 04:04:56+00:00",
+                            "commits": [
+                                {
+                                    "message": "Used :source: role in docs/howto/custom-template-tags.txt.",
+                                    "commited_at": "2021-10-13 19:04:35+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed customizing Query's datastructure classes.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-13 05:34:07+00:00",
+                            "merged_at": "2021-12-07 18:13:38+00:00",
+                            "closed_at": "2021-12-07 18:13:38+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #25265 -- Allowed customizing Query's datastructure classes.",
+                                    "commited_at": "2021-12-07 12:36:50+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #23953 -- Made makemigrations continue number sequence for squashed migrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-12 19:14:35+00:00",
+                            "merged_at": "2021-10-15 05:28:03+00:00",
+                            "closed_at": "2021-10-15 05:28:03+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #23953 -- Added MigrationAutodetector.parse_number() tests.",
+                                    "commited_at": "2021-10-15 04:59:31+00:00"
+                                },
+                                {
+                                    "message": "Fixed #23953 -- Made makemigrations continue number sequence for squashed migrations.",
+                                    "commited_at": "2021-10-15 04:59:31+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed Query subclasses to build filters.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-12 15:47:25+00:00",
+                            "merged_at": "2021-10-13 05:31:25+00:00",
+                            "closed_at": "2021-10-13 05:31:25+00:00",
+                            "commits": [
+                                {
+                                    "message": "Allow easier subclassing of the Query class",
+                                    "commited_at": "2021-10-12 15:46:01+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Added 'formatter' to spelling wordlist.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 11:21:41+00:00",
+                            "merged_at": "2021-10-12 13:16:01+00:00",
+                            "closed_at": "2021-10-12 13:16:01+00:00",
+                            "commits": [
+                                {
+                                    "message": "Added 'formatter' to spelling wordlist.",
+                                    "commited_at": "2021-10-12 11:20:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Bumped versions in pre-commit and npm configurations.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 09:14:47+00:00",
+                            "merged_at": "2021-10-12 18:38:37+00:00",
+                            "closed_at": "2021-10-12 18:38:37+00:00",
+                            "commits": [
+                                {
+                                    "message": "Bumped versions in pre-commit and npm configurations.",
+                                    "commited_at": "2021-10-12 09:14:07+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Doc'd a precise exception type in Paginator.page() docs.",
+                            "author": "sih4sing5hong5",
+                            "created_at": "2021-10-12 08:57:18+00:00",
+                            "merged_at": "2021-10-13 07:13:37+00:00",
+                            "closed_at": "2021-10-13 07:13:38+00:00",
+                            "commits": [
+                                {
+                                    "message": "Doc'd a precise exception type in Paginator.page() docs.",
+                                    "commited_at": "2021-10-13 06:46:46+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33172 -- Added example of modifying upload handlers on the fly for CBVs.",
+                            "author": "sreehari1997",
+                            "created_at": "2021-10-12 08:12:43+00:00",
+                            "merged_at": "2021-10-18 08:26:14+00:00",
+                            "closed_at": "2021-10-18 08:26:14+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33172 -- Added example of modifying upload handlers on the fly for CBVs.",
+                                    "commited_at": "2021-10-18 07:45:52+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #21755 -- Fixed createsuperuser crash for required foreign keys passed in options in interactive mode.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 05:06:10+00:00",
+                            "merged_at": "2021-10-12 05:42:56+00:00",
+                            "closed_at": "2021-10-12 05:42:56+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #21755 -- Fixed createsuperuser crash for required foreign keys passed in options in interactive mode.\n\nCo-authored-by: Mariusz Felisiak <felisiak.mariusz@gmail.com>",
+                                    "commited_at": "2021-10-12 04:59:46+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #29628, Refs #33178 -- Made createsuperuser validate password against required fields passed in options.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 09:59:16+00:00",
+                            "merged_at": "2021-10-12 04:21:15+00:00",
+                            "closed_at": "2021-10-12 04:21:15+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #29628, Refs #33178 -- Made createsuperuser validate password against required fields passed in options.",
+                                    "commited_at": "2021-10-11 09:58:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Pinned flake8 == 3.9.2 in GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 06:07:21+00:00",
+                            "merged_at": "2021-10-11 07:03:15+00:00",
+                            "closed_at": "2021-10-11 07:03:15+00:00",
+                            "commits": [
+                                {
+                                    "message": "Pinned flake8 == 3.9.2 in GitHub actions.",
+                                    "commited_at": "2021-10-11 06:05:00+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33269 -- Made AnonymousUser/PermissionsMixin.has_perms() raise ValueError on string or non-iterable perm_list.",
+                            "author": "lieryan",
+                            "created_at": "2021-10-11 04:15:07+00:00",
+                            "merged_at": "2021-11-11 21:25:49+00:00",
+                            "closed_at": "2021-11-11 21:25:50+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33269 -- Made AnonymousUser/PermissionsMixin.has_perms() raise ValueError on string or non-iterable perm_list.",
+                                    "commited_at": "2021-11-11 19:26:29+00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "time_to_review": {
+                    "mean": "1 day, 19:43:22.333333",
+                    "median": "4:00:08.500000",
+                    "percentile_95": "9 days, 22:36:12.750000",
+                    "total_prs": [
+                        {
+                            "title": "Fixed #33198 -- Corrected BinaryField.max_length docs.",
+                            "author": "fraziern",
+                            "created_at": "2021-10-16 21:34:23+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33201 -- Made RenameModel operation a noop for models with db_table.",
+                            "author": "iurisilvio",
+                            "created_at": "2021-10-16 09:31:21+00:00",
+                            "first_review_at": "2021-10-16 10:32:24+00:00"
+                        },
+                        {
+                            "title": "Fixed #33194 -- Fixed migrations when altering a field with functional indexes/unique constraints on SQLite.",
+                            "author": "hannseman",
+                            "created_at": "2021-10-15 20:19:33+00:00",
+                            "first_review_at": "2021-10-16 00:06:44+00:00"
+                        },
+                        {
+                            "title": "Fixed #33197 -- Made field rename with prior matching db_column change a noop.",
+                            "author": "charettes",
+                            "created_at": "2021-10-15 17:13:16+00:00",
+                            "first_review_at": "2021-10-19 04:38:26+00:00"
+                        },
+                        {
+                            "title": "Fixed #33210 -- Clarified docs for sitemaps ping_google() helper.",
+                            "author": "ar4s",
+                            "created_at": "2021-10-15 09:28:48+00:00",
+                            "first_review_at": "2021-10-18 10:58:18+00:00"
+                        },
+                        {
+                            "title": "Fixed #33195 -- Refactored urlize() based on a class.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:33:50+00:00",
+                            "first_review_at": "2021-10-15 05:56:14+00:00"
+                        },
+                        {
+                            "title": "Refs #30509 -- Adjusted internal FileResponse variable name.",
+                            "author": "carltongibson",
+                            "created_at": "2021-10-14 17:16:26+00:00",
+                            "first_review_at": "2021-10-15 05:29:33+00:00"
+                        },
+                        {
+                            "title": "Removed unused DOTS list.",
+                            "author": "claudep",
+                            "created_at": "2021-10-14 17:00:45+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Refs #32074 -- Removed usage of deprecated asyncore and smtpd modules.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 09:44:28+00:00",
+                            "first_review_at": "2021-10-14 12:38:33+00:00"
+                        },
+                        {
+                            "title": "Refs #27131 -- Removed SMTPBackendTests.test_server_login().",
+                            "author": "felixxm",
+                            "created_at": "2021-10-14 08:32:10+00:00",
+                            "first_review_at": "2021-10-14 08:33:34+00:00"
+                        },
+                        {
+                            "title": "Fixed #32691 -- Made Exact lookup on BooleanFields compare directly to a boolean value on MySQL.",
+                            "author": "romanvm",
+                            "created_at": "2021-10-13 21:04:09+00:00",
+                            "first_review_at": "2021-10-26 12:18:57+00:00"
+                        },
+                        {
+                            "title": "Used :source: role in docs/howto/custom-template-tags.txt.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-13 19:05:05+00:00",
+                            "first_review_at": "2021-10-13 19:09:36+00:00"
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed customizing Query's datastructure classes.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-13 05:34:07+00:00",
+                            "first_review_at": "2021-11-05 13:51:40+00:00"
+                        },
+                        {
+                            "title": "Fixed #23953 -- Made makemigrations continue number sequence for squashed migrations.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-12 19:14:35+00:00",
+                            "first_review_at": "2021-10-12 23:34:25+00:00"
+                        },
+                        {
+                            "title": "Refs #25265 -- Allowed Query subclasses to build filters.",
+                            "author": "ecederstrand",
+                            "created_at": "2021-10-12 15:47:25+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Added 'formatter' to spelling wordlist.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 11:21:41+00:00",
+                            "first_review_at": "2021-10-12 11:29:05+00:00"
+                        },
+                        {
+                            "title": "Bumped versions in pre-commit and npm configurations.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 09:14:47+00:00",
+                            "first_review_at": "2021-10-12 10:13:17+00:00"
+                        },
+                        {
+                            "title": "Doc'd a precise exception type in Paginator.page() docs.",
+                            "author": "sih4sing5hong5",
+                            "created_at": "2021-10-12 08:57:18+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33172 -- Added example of modifying upload handlers on the fly for CBVs.",
+                            "author": "sreehari1997",
+                            "created_at": "2021-10-12 08:12:43+00:00",
+                            "first_review_at": "2021-10-15 08:51:46+00:00"
+                        },
+                        {
+                            "title": "Refs #21755 -- Fixed createsuperuser crash for required foreign keys passed in options in interactive mode.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-12 05:06:10+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Refs #29628, Refs #33178 -- Made createsuperuser validate password against required fields passed in options.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 09:59:16+00:00",
+                            "first_review_at": "2021-10-11 11:34:04+00:00"
+                        },
+                        {
+                            "title": "Pinned flake8 == 3.9.2 in GitHub actions.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-11 06:07:21+00:00",
+                            "first_review_at": "2021-10-11 06:52:14+00:00"
+                        },
+                        {
+                            "title": "Fixed #33269 -- Made AnonymousUser/PermissionsMixin.has_perms() raise ValueError on string or non-iterable perm_list.",
+                            "author": "lieryan",
+                            "created_at": "2021-10-11 04:15:07+00:00",
+                            "first_review_at": "2021-10-11 08:35:57+00:00"
+                        }
+                    ],
+                    "unreviewed_prs": 5,
+                    "prs_over_24h": 10
+                }
+            }
+        },
+        {
+            "2021-10-18T00:00:00+00:00-2021-10-24T23:59:59+00:00": {
+                "merge_rate": {
+                    "total_prs": [
+                        {
+                            "author": "jacobtylerwalls",
+                            "merged_at": "2021-12-15 08:10:32+00:00"
+                        },
+                        {
+                            "author": "jacobtylerwalls",
+                            "merged_at": "2021-10-25 05:42:06+00:00"
+                        },
+                        {
+                            "author": "hramezani",
+                            "merged_at": "2021-10-25 08:08:58+00:00"
+                        },
+                        {
+                            "author": "mjr",
+                            "merged_at": "2021-10-22 07:06:05+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-21 18:23:58+00:00"
+                        },
+                        {
+                            "author": "smithdc1",
+                            "merged_at": "2021-10-20 07:11:09+00:00"
+                        },
+                        {
+                            "author": "jacobtylerwalls",
+                            "merged_at": "2021-10-26 06:44:06+00:00"
+                        },
+                        {
+                            "author": "felixxm",
+                            "merged_at": "2021-10-19 11:05:14+00:00"
+                        },
+                        {
+                            "author": "ssb10",
+                            "merged_at": "2021-10-20 11:27:34+00:00"
+                        },
+                        {
+                            "author": "smithdc1",
+                            "merged_at": "2021-10-19 04:32:54+00:00"
+                        }
+                    ],
+                    "prs_authors": [
+                        "jacobtylerwalls",
+                        "hramezani",
+                        "mjr",
+                        "felixxm",
+                        "smithdc1",
+                        "ssb10"
+                    ],
+                    "merge_rate": 1.6666666666666667
+                },
+                "hotfixes": {
+                    "hotfix_list": []
+                },
+                "merge_time": {
+                    "mean": "4 days, 15:31:48.300000",
+                    "median": "12:45:37.500000",
+                    "percentile_95": "22 days, 16:11:02.700000",
+                    "total_prs": [
+                        {
+                            "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-24 17:48:28+00:00",
+                            "merged_at": "2021-12-15 08:10:32+00:00"
+                        },
+                        {
+                            "title": "Fixed typo in tests/servers/tests.py.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-23 22:23:19+00:00",
+                            "merged_at": "2021-10-25 05:42:06+00:00"
+                        },
+                        {
+                            "title": "Fixed #33205 -- Made call_command() raise TypeError when dest with multiple arguments is passed.",
+                            "author": "hramezani",
+                            "created_at": "2021-10-22 14:41:17+00:00",
+                            "merged_at": "2021-10-25 08:08:58+00:00"
+                        },
+                        {
+                            "title": "Fixed #33214 -- Added BaseDatabaseOperations.format_for_duration_arithmetic() stub method.",
+                            "author": "mjr",
+                            "created_at": "2021-10-22 06:01:35+00:00",
+                            "merged_at": "2021-10-22 07:06:05+00:00"
+                        },
+                        {
+                            "title": "Fixed #33215 -- Confirmed support for GEOS 3.10.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-21 09:21:53+00:00",
+                            "merged_at": "2021-10-21 18:23:58+00:00"
+                        },
+                        {
+                            "title": "Refs #32956 -- Capitalized HTTP/HTTPS in comments, docs, and docstrings.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-19 18:05:00+00:00",
+                            "merged_at": "2021-10-20 07:11:09+00:00"
+                        },
+                        {
+                            "title": "Fixed #27079 -- Avoided multiple setUpClass()/tearDownClass() calls in LiveServerTestCase tests.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-19 12:45:47+00:00",
+                            "merged_at": "2021-10-26 06:44:06+00:00"
+                        },
+                        {
+                            "title": "Refs #33207 -- Clarified that AUTH_USER_MODEL expects an app label.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-19 04:30:12+00:00",
+                            "merged_at": "2021-10-19 11:05:14+00:00"
+                        },
+                        {
+                            "title": "Fixed #32987 -- Added system check for template tag modules with the same name.",
+                            "author": "ssb10",
+                            "created_at": "2021-10-18 19:41:03+00:00",
+                            "merged_at": "2021-10-20 11:27:34+00:00"
+                        },
+                        {
+                            "title": "Refs #32956 -- Changed docs to treat the acronym HTTP phonetically.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-18 16:07:48+00:00",
+                            "merged_at": "2021-10-19 04:32:54+00:00"
+                        }
+                    ],
+                    "merged_pr_rate": 100.0
+                },
+                "pr_size": {
+                    "total_prs": [
+                        {
+                            "additions": 102,
+                            "deletions": 4
+                        },
+                        {
+                            "additions": 3,
+                            "deletions": 3
+                        },
+                        {
+                            "additions": 54,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 11,
+                            "deletions": 0
+                        },
+                        {
+                            "additions": 7,
+                            "deletions": 2
+                        },
+                        {
+                            "additions": 9,
+                            "deletions": 11
+                        },
+                        {
+                            "additions": 23,
+                            "deletions": 54
+                        },
+                        {
+                            "additions": 3,
+                            "deletions": 3
+                        },
+                        {
+                            "additions": 164,
+                            "deletions": 12
+                        },
+                        {
+                            "additions": 22,
+                            "deletions": 18
+                        }
+                    ],
+                    "total_mean": 50.5,
+                    "total_median": 30.0,
+                    "total_percentile_95": 144.49999999999991,
+                    "rate_mean": 29.1,
+                    "rate_median": 4.5,
+                    "rate_percentile_95": 127.69999999999995
+                },
+                "time_to_merge": {
+                    "mean": "4:01:47",
+                    "median": "3:04:05.500000",
+                    "percentile_95": "9:19:26.150000",
+                    "merged_prs": [
+                        {
+                            "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-24 17:48:28+00:00",
+                            "merged_at": "2021-12-15 08:10:32+00:00",
+                            "closed_at": "2021-12-15 08:10:32+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.\n\nThis reduces the likelihood of admin searches issuing queries with\nexcessive joins.",
+                                    "commited_at": "2021-12-15 07:14:19+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed typo in tests/servers/tests.py.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-23 22:23:19+00:00",
+                            "merged_at": "2021-10-25 05:42:06+00:00",
+                            "closed_at": "2021-10-25 05:42:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed typo in SingleThreadLiveServerViews.",
+                                    "commited_at": "2021-10-23 21:31:50+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33205 -- Made call_command() raise TypeError when dest with multiple arguments is passed.",
+                            "author": "hramezani",
+                            "created_at": "2021-10-22 14:41:17+00:00",
+                            "merged_at": "2021-10-25 08:08:58+00:00",
+                            "closed_at": "2021-10-25 08:08:58+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33205 -- Made call_command() raise TypeError when dest with multiple arguments is passed.",
+                                    "commited_at": "2021-10-25 05:48:06+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33214 -- Added BaseDatabaseOperations.format_for_duration_arithmetic() stub method.",
+                            "author": "mjr",
+                            "created_at": "2021-10-22 06:01:35+00:00",
+                            "merged_at": "2021-10-22 07:06:05+00:00",
+                            "closed_at": "2021-10-22 07:06:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33214 -- Added BaseDatabaseOperations.format_for_duration_arithmetic() stub method.",
+                                    "commited_at": "2021-10-22 06:19:02+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33215 -- Confirmed support for GEOS 3.10.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-21 09:21:53+00:00",
+                            "merged_at": "2021-10-21 18:23:58+00:00",
+                            "closed_at": "2021-10-21 18:23:58+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33215 -- Confirmed support for GEOS 3.10.",
+                                    "commited_at": "2021-10-21 09:20:25+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32956 -- Capitalized HTTP/HTTPS in comments, docs, and docstrings.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-19 18:05:00+00:00",
+                            "merged_at": "2021-10-20 07:11:09+00:00",
+                            "closed_at": "2021-10-20 07:11:09+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32956 -- Capitalized HTTP/HTTPS in comments, docs, and docstrings.",
+                                    "commited_at": "2021-10-20 06:40:19+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #27079 -- Avoided multiple setUpClass()/tearDownClass() calls in LiveServerTestCase tests.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-19 12:45:47+00:00",
+                            "merged_at": "2021-10-26 06:44:06+00:00",
+                            "closed_at": "2021-10-26 06:44:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #27079 -- Avoided multiple setUpClass()/tearDownClass() calls in LiveServerTestCase tests.",
+                                    "commited_at": "2021-10-26 05:47:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #33207 -- Clarified that AUTH_USER_MODEL expects an app label.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-19 04:30:12+00:00",
+                            "merged_at": "2021-10-19 11:05:14+00:00",
+                            "closed_at": "2021-10-19 11:05:14+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #33207 -- Clarified that AUTH_USER_MODEL expects an app label.",
+                                    "commited_at": "2021-10-19 04:24:13+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #32987 -- Added system check for template tag modules with the same name.",
+                            "author": "ssb10",
+                            "created_at": "2021-10-18 19:41:03+00:00",
+                            "merged_at": "2021-10-20 11:27:34+00:00",
+                            "closed_at": "2021-10-20 11:27:34+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32987 -- Refactored out get_template_tag_modules().",
+                                    "commited_at": "2021-10-20 07:40:15+00:00"
+                                },
+                                {
+                                    "message": "Fixed #32987 -- Added system check for template tag modules with the same name.\n\nCo-authored-by: Daniel Fairhead <daniel@dev.ngo>",
+                                    "commited_at": "2021-10-20 09:15:47+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32956 -- Changed docs to treat the acronym HTTP phonetically.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-18 16:07:48+00:00",
+                            "merged_at": "2021-10-19 04:32:54+00:00",
+                            "closed_at": "2021-10-19 04:32:54+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32956 -- Changed docs to treat the acronym HTTP phonetically.",
+                                    "commited_at": "2021-10-18 19:00:28+00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "time_to_open": {
+                    "mean": "-7 days, 16:31:09.600000",
+                    "median": "-1 day, 16:16:00.500000",
+                    "percentile_95": "0:03:57.050000",
+                    "total_prs": [
+                        {
+                            "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-24 17:48:28+00:00",
+                            "merged_at": "2021-12-15 08:10:32+00:00",
+                            "closed_at": "2021-12-15 08:10:32+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.\n\nThis reduces the likelihood of admin searches issuing queries with\nexcessive joins.",
+                                    "commited_at": "2021-12-15 07:14:19+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed typo in tests/servers/tests.py.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-23 22:23:19+00:00",
+                            "merged_at": "2021-10-25 05:42:06+00:00",
+                            "closed_at": "2021-10-25 05:42:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed typo in SingleThreadLiveServerViews.",
+                                    "commited_at": "2021-10-23 21:31:50+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33205 -- Made call_command() raise TypeError when dest with multiple arguments is passed.",
+                            "author": "hramezani",
+                            "created_at": "2021-10-22 14:41:17+00:00",
+                            "merged_at": "2021-10-25 08:08:58+00:00",
+                            "closed_at": "2021-10-25 08:08:58+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33205 -- Made call_command() raise TypeError when dest with multiple arguments is passed.",
+                                    "commited_at": "2021-10-25 05:48:06+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33214 -- Added BaseDatabaseOperations.format_for_duration_arithmetic() stub method.",
+                            "author": "mjr",
+                            "created_at": "2021-10-22 06:01:35+00:00",
+                            "merged_at": "2021-10-22 07:06:05+00:00",
+                            "closed_at": "2021-10-22 07:06:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33214 -- Added BaseDatabaseOperations.format_for_duration_arithmetic() stub method.",
+                                    "commited_at": "2021-10-22 06:19:02+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #33215 -- Confirmed support for GEOS 3.10.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-21 09:21:53+00:00",
+                            "merged_at": "2021-10-21 18:23:58+00:00",
+                            "closed_at": "2021-10-21 18:23:58+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #33215 -- Confirmed support for GEOS 3.10.",
+                                    "commited_at": "2021-10-21 09:20:25+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32956 -- Capitalized HTTP/HTTPS in comments, docs, and docstrings.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-19 18:05:00+00:00",
+                            "merged_at": "2021-10-20 07:11:09+00:00",
+                            "closed_at": "2021-10-20 07:11:09+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32956 -- Capitalized HTTP/HTTPS in comments, docs, and docstrings.",
+                                    "commited_at": "2021-10-20 06:40:19+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #27079 -- Avoided multiple setUpClass()/tearDownClass() calls in LiveServerTestCase tests.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-19 12:45:47+00:00",
+                            "merged_at": "2021-10-26 06:44:06+00:00",
+                            "closed_at": "2021-10-26 06:44:06+00:00",
+                            "commits": [
+                                {
+                                    "message": "Fixed #27079 -- Avoided multiple setUpClass()/tearDownClass() calls in LiveServerTestCase tests.",
+                                    "commited_at": "2021-10-26 05:47:40+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #33207 -- Clarified that AUTH_USER_MODEL expects an app label.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-19 04:30:12+00:00",
+                            "merged_at": "2021-10-19 11:05:14+00:00",
+                            "closed_at": "2021-10-19 11:05:14+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #33207 -- Clarified that AUTH_USER_MODEL expects an app label.",
+                                    "commited_at": "2021-10-19 04:24:13+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fixed #32987 -- Added system check for template tag modules with the same name.",
+                            "author": "ssb10",
+                            "created_at": "2021-10-18 19:41:03+00:00",
+                            "merged_at": "2021-10-20 11:27:34+00:00",
+                            "closed_at": "2021-10-20 11:27:34+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32987 -- Refactored out get_template_tag_modules().",
+                                    "commited_at": "2021-10-20 07:40:15+00:00"
+                                },
+                                {
+                                    "message": "Fixed #32987 -- Added system check for template tag modules with the same name.\n\nCo-authored-by: Daniel Fairhead <daniel@dev.ngo>",
+                                    "commited_at": "2021-10-20 09:15:47+00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Refs #32956 -- Changed docs to treat the acronym HTTP phonetically.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-18 16:07:48+00:00",
+                            "merged_at": "2021-10-19 04:32:54+00:00",
+                            "closed_at": "2021-10-19 04:32:54+00:00",
+                            "commits": [
+                                {
+                                    "message": "Refs #32956 -- Changed docs to treat the acronym HTTP phonetically.",
+                                    "commited_at": "2021-10-18 19:00:28+00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "time_to_review": {
+                    "mean": "5:20:51.666667",
+                    "median": "4:58:56.500000",
+                    "percentile_95": "10:14:10.250000",
+                    "total_prs": [
+                        {
+                            "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-24 17:48:28+00:00",
+                            "first_review_at": "2021-10-25 09:44:07+00:00"
+                        },
+                        {
+                            "title": "Fixed typo in tests/servers/tests.py.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-23 22:23:19+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33205 -- Made call_command() raise TypeError when dest with multiple arguments is passed.",
+                            "author": "hramezani",
+                            "created_at": "2021-10-22 14:41:17+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33214 -- Added BaseDatabaseOperations.format_for_duration_arithmetic() stub method.",
+                            "author": "mjr",
+                            "created_at": "2021-10-22 06:01:35+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #33215 -- Confirmed support for GEOS 3.10.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-21 09:21:53+00:00",
+                            "first_review_at": "2021-10-21 13:19:23+00:00"
+                        },
+                        {
+                            "title": "Refs #32956 -- Capitalized HTTP/HTTPS in comments, docs, and docstrings.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-19 18:05:00+00:00",
+                            "first_review_at": null
+                        },
+                        {
+                            "title": "Fixed #27079 -- Avoided multiple setUpClass()/tearDownClass() calls in LiveServerTestCase tests.",
+                            "author": "jacobtylerwalls",
+                            "created_at": "2021-10-19 12:45:47+00:00",
+                            "first_review_at": "2021-10-19 18:46:10+00:00"
+                        },
+                        {
+                            "title": "Refs #33207 -- Clarified that AUTH_USER_MODEL expects an app label.",
+                            "author": "felixxm",
+                            "created_at": "2021-10-19 04:30:12+00:00",
+                            "first_review_at": "2021-10-19 04:35:20+00:00"
+                        },
+                        {
+                            "title": "Fixed #32987 -- Added system check for template tag modules with the same name.",
+                            "author": "ssb10",
+                            "created_at": "2021-10-18 19:41:03+00:00",
+                            "first_review_at": "2021-10-19 06:05:14+00:00"
+                        },
+                        {
+                            "title": "Refs #32956 -- Changed docs to treat the acronym HTTP phonetically.",
+                            "author": "smithdc1",
+                            "created_at": "2021-10-18 16:07:48+00:00",
+                            "first_review_at": "2021-10-18 18:01:38+00:00"
+                        }
+                    ],
+                    "unreviewed_prs": 4,
+                    "prs_over_24h": 4
+                }
+            }
+        }
+    ]
+}

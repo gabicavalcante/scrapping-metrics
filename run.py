@@ -1,3 +1,4 @@
+import json
 import arrow
 
 from github_metrics.metrics.hotfixes_count import get_hotfixes_data
@@ -9,73 +10,93 @@ from github_metrics.metrics.time_to_open import get_time_to_open_data
 from github_metrics.metrics.time_to_review import get_time_to_review_data
 from github_metrics.request import fetch_prs_between
 
-start_date = "2021-06-22"
-end_date = "2021-06-24"
+start_date = "2021-10-25"
+end_date = "2021-10-24"
 include_hotfixes = False
 exclude_weekends = True
 exclude_authors = []
 filter_authors = []
-start_date = arrow.get(start_date)
-end_date = arrow.get(f"{end_date}T23:59:59")
 
-exclude_user_list = []
-if exclude_authors:
-    exclude_user_list = exclude_authors.split(",")
+def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weekends, exclude_authors, filter_authors):
+    start_date = arrow.get(start_date)
+    end_date = arrow.get(f"{end_date}T23:59:59")
 
-filter_user_list = []
-if filter_authors:
-    filter_user_list = filter_authors.split(",")
+    exclude_user_list = []
+    if exclude_authors:
+        exclude_user_list = exclude_authors.split(",")
 
-pr_list = fetch_prs_between(start_date, end_date)
+    filter_user_list = []
+    if filter_authors:
+        filter_user_list = filter_authors.split(",")
 
-merge_rate = get_merge_rate_data(
-    pr_list=pr_list,
-    include_hotfixes=include_hotfixes,
-    exclude_authors=exclude_authors,
-    filter_authors=filter_authors,
-)
-hotfixes = get_hotfixes_data(
-    pr_list=pr_list, exclude_authors=exclude_authors, filter_authors=filter_authors
-)
-merge_time = get_open_to_merge_time_data(
-    pr_list=pr_list,
-    include_hotfixes=include_hotfixes,
-    exclude_authors=exclude_authors,
-    filter_authors=filter_authors,
-    exclude_weekends=exclude_weekends,
-)
-pr_size = get_pr_size_data(
-    pr_list=pr_list,
-    include_hotfixes=include_hotfixes,
-    exclude_authors=exclude_authors,
-    filter_authors=filter_authors,
-)
-time_to_merge = get_time_to_merge_data(
-    pr_list=pr_list,
-    include_hotfixes=include_hotfixes,
-    exclude_authors=exclude_authors,
-    filter_authors=filter_authors,
-    exclude_weekends=exclude_weekends,
-)
-time_to_open = get_time_to_open_data(
-    pr_list=pr_list,
-    include_hotfixes=include_hotfixes,
-    exclude_authors=exclude_authors,
-    filter_authors=filter_authors,
-    exclude_weekends=exclude_weekends,
-)
-time_to_review = get_time_to_review_data(
-    pr_list=pr_list,
-    include_hotfixes=include_hotfixes,
-    exclude_authors=exclude_authors,
-    filter_authors=filter_authors,
-    exclude_weekends=exclude_weekends,
-)
+    pr_list = fetch_prs_between(start_date, end_date)
 
-print(merge_rate)
-print(hotfixes)
-print(merge_time)
-print(pr_size)
-print(time_to_merge)
-print(time_to_open)
-print(time_to_review)
+    merge_rate = get_merge_rate_data(
+        pr_list=pr_list,
+        include_hotfixes=include_hotfixes,
+        exclude_authors=exclude_authors,
+        filter_authors=filter_authors,
+    )
+    hotfixes = get_hotfixes_data(
+        pr_list=pr_list, exclude_authors=exclude_authors, filter_authors=filter_authors
+    )
+    merge_time = get_open_to_merge_time_data(
+        pr_list=pr_list,
+        include_hotfixes=include_hotfixes,
+        exclude_authors=exclude_authors,
+        filter_authors=filter_authors,
+        exclude_weekends=exclude_weekends,
+    )
+    pr_size = get_pr_size_data(
+        pr_list=pr_list,
+        include_hotfixes=include_hotfixes,
+        exclude_authors=exclude_authors,
+        filter_authors=filter_authors,
+    )
+    time_to_merge = get_time_to_merge_data(
+        pr_list=pr_list,
+        include_hotfixes=include_hotfixes,
+        exclude_authors=exclude_authors,
+        filter_authors=filter_authors,
+        exclude_weekends=exclude_weekends,
+    )
+    time_to_open = get_time_to_open_data(
+        pr_list=pr_list,
+        include_hotfixes=include_hotfixes,
+        exclude_authors=exclude_authors,
+        filter_authors=filter_authors,
+        exclude_weekends=exclude_weekends,
+    )
+    time_to_review = get_time_to_review_data(
+        pr_list=pr_list,
+        include_hotfixes=include_hotfixes,
+        exclude_authors=exclude_authors,
+        filter_authors=filter_authors,
+        exclude_weekends=exclude_weekends,
+    )
+
+    key = f"{start_date}-{end_date}"
+    week_result = {
+        key: {
+        "merge_rate": merge_rate,
+        "hotfixes": hotfixes,
+        "merge_time": merge_time,
+        "pr_size": pr_size,
+        "time_to_merge": time_to_merge,
+        "time_to_open": time_to_open,
+        "time_to_review": time_to_review,
+    }
+    }
+
+    with open("metrics.json") as f:
+        old_file_content = json.load(f)
+        if old_file_content == {}:
+            old_file_content = {"metrics": []}
+
+    old_file_content["metrics"].append(week_result)
+
+    with open("metrics.json", 'w') as f:
+        json.dump(old_file_content, f, indent=4, default=str)
+
+
+get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weekends, exclude_authors, filter_authors)
