@@ -1,6 +1,7 @@
 name: Metrics generator
 
-on: push
+on:
+  schedule: 0 0 * * Sun [ $(expr $(date +%W) % 2) -eq 1 ]
 
 jobs:
   build:

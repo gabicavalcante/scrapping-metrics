@@ -44,3 +44,20 @@ def get_pr_size_week_dataframe():
 
     df = pd.DataFrame(data, columns=["Week", "Additions", "Deletions"])
     return df
+
+def get_pr_size_metrics_dataframe():
+    with open(FILEPATH) as f:
+        content = json.load(f)
+
+    data = [[i["key"], i["pr_size"]["total_mean"], i["pr_size"]["total_median"], i["pr_size"]["total_percentile_95"], max([pr["additions"] for pr in  i["pr_size"]["total_prs"]])] for i in content["metrics"]]
+    df = pd.DataFrame(data, columns=["Week", "Mean", "Median", "Percentile 95", "Max"])
+    return df
+
+
+def get_time_to_review_metrics_dataframe():
+    with open(FILEPATH) as f:
+        content = json.load(f)
+
+    data = [[i["key"], len(i["time_to_review"]["total_prs"]), i["time_to_review"]["unreviewed_prs"], i["time_to_review"]["prs_over_24h"]] for i in content["metrics"]]
+    df = pd.DataFrame(data, columns=["Week", "Total PRs", "Unreviewed PRs", "PRs Over 24 hours"])
+    return df
