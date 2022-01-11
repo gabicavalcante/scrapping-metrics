@@ -41,7 +41,7 @@ def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weeke
     hotfixes = get_hotfixes_data(
         pr_list=pr_list, exclude_authors=exclude_authors, filter_authors=filter_authors
     )
-    merge_time = get_open_to_merge_time_data(
+    open_to_merge = get_open_to_merge_time_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
         exclude_authors=exclude_authors,
@@ -75,14 +75,14 @@ def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weeke
         filter_authors=filter_authors,
         exclude_weekends=exclude_weekends,
     )
-    merge_time["mean"] = merge_time["mean"].total_seconds() / 3600
-    merge_time["median"] = merge_time["median"].total_seconds() / 3600
-    merge_time["percentile_95"] = merge_time["percentile_95"].total_seconds() / 3600
+    open_to_merge["mean"] = open_to_merge["mean"].total_seconds() / 3600
+    open_to_merge["median"] = open_to_merge["median"].total_seconds() / 3600
+    open_to_merge["percentile_95"] = open_to_merge["percentile_95"].total_seconds() / 3600
     week_result = {
         "key": f"{start_date.isocalendar()[0]}/{start_date.isocalendar()[1]}",
         "merge_rate": merge_rate,
         "hotfixes": hotfixes,
-        "merge_time": merge_time,
+        "open_to_merge": open_to_merge,
         "pr_size": pr_size,
         "time_to_merge": time_to_merge,
         "time_to_open": time_to_open,

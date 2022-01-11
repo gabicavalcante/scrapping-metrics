@@ -198,7 +198,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 300.35535947722224,
                 "median": 20.000138888888888,
                 "percentile_95": 2122.2348888888887,
@@ -598,6 +598,9 @@
                 "mean": "9:38:36.058824",
                 "median": "1:06:01.500000",
                 "percentile_95": "2 days, 7:40:42.100000",
+                "mean_duration_in_hours": 9.643349673333333,
+                "median_duration_in_hours": 1.1004166666666666,
+                "percentile_95_duration_in_hours": 55.678361111111116,
                 "merged_prs": [
                     {
                         "title": "Fixed #18995 -- Made blocktranslate tag raise TemplateSyntaxError when plural count is not a number.",
@@ -1059,6 +1062,9 @@
                 "mean": "-17 days, 7:58:37.514286",
                 "median": "-1 day, 19:38:18",
                 "percentile_95": "0:06:04.200000",
+                "mean_duration_in_hours": -400.0229126983333,
+                "median_duration_in_hours": -4.361666666666666,
+                "percentile_95_duration_in_hours": 0.10116666666666667,
                 "total_prs": [
                     {
                         "title": "Fixed #18995 -- Made blocktranslate tag raise TemplateSyntaxError when plural count is not a number.",
@@ -1533,6 +1539,9 @@
                 "mean": "6 days, 15:38:57",
                 "median": "2:15:57",
                 "percentile_95": "11 days, 20:36:26.900000",
+                "mean_duration_in_hours": 159.64916666666667,
+                "median_duration_in_hours": 2.265833333333333,
+                "percentile_95_duration_in_hours": 284.6074722222222,
                 "total_prs": [
                     {
                         "title": "Fixed #18995 -- Made blocktranslate tag raise TemplateSyntaxError when plural count is not a number.",
@@ -1957,7 +1966,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 195.54963492055555,
                 "median": 16.833333333333332,
                 "percentile_95": 876.5326388888889,
@@ -2372,6 +2381,9 @@
                 "mean": "1:20:20.342857",
                 "median": "0:45:56",
                 "percentile_95": "6:51:28.300000",
+                "mean_duration_in_hours": 1.3389841269444442,
+                "median_duration_in_hours": 0.7655555555555555,
+                "percentile_95_duration_in_hours": 6.857861111111111,
                 "merged_prs": [
                     {
                         "title": "Fixed #32098 -- Made FieldFile use FileField.attname.",
@@ -2878,6 +2890,9 @@
                 "mean": "-17 days, 16:25:17.675676",
                 "median": "-1 day, 4:29:31",
                 "percentile_95": "0:02:14.400000",
+                "mean_duration_in_hours": -391.57842342333333,
+                "median_duration_in_hours": -19.508055555555554,
+                "percentile_95_duration_in_hours": 0.037333333333333336,
                 "total_prs": [
                     {
                         "title": "Fixed #32095 -- Changed `update_or_create` to only save fields listed in `defaults`.",
@@ -3418,6 +3433,9 @@
                 "mean": "2 days, 18:22:45.366667",
                 "median": "3:24:13",
                 "percentile_95": "6 days, 10:40:38.550000",
+                "mean_duration_in_hours": 66.37926851861111,
+                "median_duration_in_hours": 3.403611111111111,
+                "percentile_95_duration_in_hours": 154.677375,
                 "total_prs": [
                     {
                         "title": "Fixed #32095 -- Changed `update_or_create` to only save fields listed in `defaults`.",
@@ -3961,7 +3979,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 268.6123787877778,
                 "median": 14.989444444444445,
                 "percentile_95": 1199.8633055555556,
@@ -4592,6 +4610,9 @@
                 "mean": "4:28:39.836364",
                 "median": "0:57:02",
                 "percentile_95": "18:24:19.800000",
+                "mean_duration_in_hours": 4.477732323333334,
+                "median_duration_in_hours": 0.9505555555555556,
+                "percentile_95_duration_in_hours": 18.4055,
                 "merged_prs": [
                     {
                         "title": "Corrected output of rendered formset example in model formsets docs.",
@@ -5354,6 +5375,9 @@
                 "mean": "-16 days, 22:48:38.214286",
                 "median": "-1 day, 7:55:34",
                 "percentile_95": "0:05:42.250000",
+                "mean_duration_in_hours": -361.18938492055554,
+                "median_duration_in_hours": -16.073888888888888,
+                "percentile_95_duration_in_hours": 0.09506944444444444,
                 "total_prs": [
                     {
                         "title": "Corrected output of rendered formset example in model formsets docs.",
@@ -6133,6 +6157,9 @@
                 "mean": "6 days, 6:23:45.063830",
                 "median": "7:31:11",
                 "percentile_95": "32 days, 5:40:35.300000",
+                "mean_duration_in_hours": 150.3958510638889,
+                "median_duration_in_hours": 7.519722222222223,
+                "percentile_95_duration_in_hours": 773.6764722222222,
                 "total_prs": [
                     {
                         "title": "Corrected output of rendered formset example in model formsets docs.",
@@ -6643,7 +6670,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 113.21188492055556,
                 "median": 20.070833333333333,
                 "percentile_95": 384.9149861111111,
@@ -6977,6 +7004,9 @@
                 "mean": "8:35:49.250000",
                 "median": "2:38:18.500000",
                 "percentile_95": "1 day, 11:54:28.850000",
+                "mean_duration_in_hours": 8.597013888888888,
+                "median_duration_in_hours": 2.638472222222222,
+                "percentile_95_duration_in_hours": 35.90801388888889,
                 "merged_prs": [
                     {
                         "title": "Fixed #32180 -- Added system check for file system caches absolute location.",
@@ -7376,6 +7406,9 @@
                 "mean": "-7 days, 20:50:44.793103",
                 "median": "-1 day, 9:18:34",
                 "percentile_95": "0:19:24.600000",
+                "mean_duration_in_hours": -147.15422413805555,
+                "median_duration_in_hours": -14.690555555555555,
+                "percentile_95_duration_in_hours": 0.32349999999999995,
                 "total_prs": [
                     {
                         "title": "Fixed #32180 -- Added system check for file system caches absolute location.",
@@ -7792,6 +7825,9 @@
                 "mean": "15:27:34.761905",
                 "median": "3:17:15",
                 "percentile_95": "3 days, 5:51:05",
+                "mean_duration_in_hours": 15.459656084722223,
+                "median_duration_in_hours": 3.2875,
+                "percentile_95_duration_in_hours": 77.85138888888889,
                 "total_prs": [
                     {
                         "title": "Fixed #32180 -- Added system check for file system caches absolute location.",
@@ -8171,7 +8207,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 298.49968954250005,
                 "median": 25.589305555555555,
                 "percentile_95": 1781.6399166666667,
@@ -8567,6 +8603,9 @@
                 "mean": "5:16:02.823529",
                 "median": "1:26:57",
                 "percentile_95": "23:35:58.600000",
+                "mean_duration_in_hours": 5.267450980277778,
+                "median_duration_in_hours": 1.4491666666666667,
+                "percentile_95_duration_in_hours": 23.599611111111113,
                 "merged_prs": [
                     {
                         "title": "Fixed #32220 -- Added durable argument to transaction.atomic().",
@@ -9056,6 +9095,9 @@
                 "mean": "-17 days, 0:54:05.029412",
                 "median": "-1 day, 10:09:06",
                 "percentile_95": "0:07:57.200000",
+                "mean_duration_in_hours": -407.0986029411111,
+                "median_duration_in_hours": -13.848333333333333,
+                "percentile_95_duration_in_hours": 0.13255555555555557,
                 "total_prs": [
                     {
                         "title": "Fixed #32220 -- Added durable argument to transaction.atomic().",
@@ -9545,6 +9587,9 @@
                 "mean": "3 days, 3:54:56.208333",
                 "median": "8:42:54",
                 "percentile_95": "21 days, 12:08:54.200000",
+                "mean_duration_in_hours": 75.91561342583334,
+                "median_duration_in_hours": 8.715,
+                "percentile_95_duration_in_hours": 516.1483888888889,
                 "total_prs": [
                     {
                         "title": "Fixed #32220 -- Added durable argument to transaction.atomic().",
@@ -9907,7 +9952,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 558.111711111111,
                 "median": 35.166666666666664,
                 "percentile_95": 4261.633333333333,
@@ -10212,6 +10257,9 @@
                 "mean": "13:12:07.760000",
                 "median": "5:20:22",
                 "percentile_95": "2 days, 15:53:57.800000",
+                "mean_duration_in_hours": 13.202155555555557,
+                "median_duration_in_hours": 5.339444444444444,
+                "percentile_95_duration_in_hours": 63.899388888888886,
                 "merged_prs": [
                     {
                         "title": "Removed unused variable in runtests.py.",
@@ -10568,6 +10616,9 @@
                 "mean": "-40 days, 21:35:35.037037",
                 "median": "-1 day, 9:32:17",
                 "percentile_95": "0:07:08.600000",
+                "mean_duration_in_hours": -938.4069341563888,
+                "median_duration_in_hours": -14.461944444444445,
+                "percentile_95_duration_in_hours": 0.11905555555555557,
                 "total_prs": [
                     {
                         "title": "Removed unused variable in runtests.py.",
@@ -10982,6 +11033,9 @@
                 "mean": "4 days, 18:56:01.857143",
                 "median": "4:19:41",
                 "percentile_95": "32 days, 11:45:00",
+                "mean_duration_in_hours": 114.93384920638889,
+                "median_duration_in_hours": 4.328055555555555,
+                "percentile_95_duration_in_hours": 779.75,
                 "total_prs": [
                     {
                         "title": "Removed unused variable in runtests.py.",
@@ -11335,7 +11389,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 217.8701344086111,
                 "median": 11.227222222222222,
                 "percentile_95": 814.1006944444445,
@@ -11698,6 +11752,9 @@
                 "mean": "22:03:03.516129",
                 "median": "2:35:30",
                 "percentile_95": "2 days, 3:38:18.500000",
+                "mean_duration_in_hours": 22.050976702499998,
+                "median_duration_in_hours": 2.591666666666667,
+                "percentile_95_duration_in_hours": 51.63847222222222,
                 "merged_prs": [
                     {
                         "title": "Updated isort URL to new location.",
@@ -12124,6 +12181,9 @@
                 "mean": "-12 days, 14:27:49.387097",
                 "median": "-1 day, 23:35:12",
                 "percentile_95": "0:04:24.500000",
+                "mean_duration_in_hours": -273.5362813619444,
+                "median_duration_in_hours": -0.41333333333333333,
+                "percentile_95_duration_in_hours": 0.07347222222222222,
                 "total_prs": [
                     {
                         "title": "Updated isort URL to new location.",
@@ -12550,6 +12610,9 @@
                 "mean": "5 days, 21:08:25.954545",
                 "median": "1:34:27.500000",
                 "percentile_95": "12 days, 12:06:50.550000",
+                "mean_duration_in_hours": 141.14054292916666,
+                "median_duration_in_hours": 1.5743055555555556,
+                "percentile_95_duration_in_hours": 300.1140416666667,
                 "total_prs": [
                     {
                         "title": "Updated isort URL to new location.",
@@ -12903,7 +12966,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 448.40790123444447,
                 "median": 25.94,
                 "percentile_95": 2957.472138888889,
@@ -13226,6 +13289,9 @@
                 "mean": "5:59:25.925926",
                 "median": "2:25:25",
                 "percentile_95": "23:51:31.500000",
+                "mean_duration_in_hours": 5.990534979444444,
+                "median_duration_in_hours": 2.423611111111111,
+                "percentile_95_duration_in_hours": 23.85875,
                 "merged_prs": [
                     {
                         "title": "Simplified django.db.utils.load_backend().",
@@ -13608,6 +13674,9 @@
                 "mean": "-25 days, 0:57:15.678571",
                 "median": "-1 day, 7:42:41.500000",
                 "percentile_95": "0:02:26.950000",
+                "mean_duration_in_hours": -599.0456448413888,
+                "median_duration_in_hours": -16.28847222222222,
+                "percentile_95_duration_in_hours": 0.04081944444444444,
                 "total_prs": [
                     {
                         "title": "Simplified django.db.utils.load_backend().",
@@ -14003,6 +14072,9 @@
                 "mean": "9 days, 11:00:21.857143",
                 "median": "10:03:19",
                 "percentile_95": "22 days, 9:07:21",
+                "mean_duration_in_hours": 227.0060714286111,
+                "median_duration_in_hours": 10.055277777777778,
+                "percentile_95_duration_in_hours": 537.1225,
                 "total_prs": [
                     {
                         "title": "Simplified django.db.utils.load_backend().",
@@ -14418,7 +14490,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 262.3730420055556,
                 "median": 19.719444444444445,
                 "percentile_95": 1506.495,
@@ -14899,6 +14971,9 @@
                 "mean": "12:42:02.804878",
                 "median": "1:39:06",
                 "percentile_95": "2 days, 15:54:38",
+                "mean_duration_in_hours": 12.700779132777779,
+                "median_duration_in_hours": 1.6516666666666666,
+                "percentile_95_duration_in_hours": 63.910555555555554,
                 "merged_prs": [
                     {
                         "title": "Removed unnecessary empty dict creation in ChoiceWidget.create_option().",
@@ -15587,6 +15662,9 @@
                 "mean": "-18 days, 13:17:19.790698",
                 "median": "-1 day, 11:16:23",
                 "percentile_95": "0:02:37.800000",
+                "mean_duration_in_hours": -418.71116925055554,
+                "median_duration_in_hours": -12.726944444444445,
+                "percentile_95_duration_in_hours": 0.043833333333333335,
                 "total_prs": [
                     {
                         "title": "Removed unnecessary empty dict creation in ChoiceWidget.create_option().",
@@ -16301,6 +16379,9 @@
                 "mean": "5 days, 8:57:30.937500",
                 "median": "5:14:54",
                 "percentile_95": "23 days, 17:09:36.200000",
+                "mean_duration_in_hours": 128.95859375,
+                "median_duration_in_hours": 5.248333333333333,
+                "percentile_95_duration_in_hours": 569.1600555555556,
                 "total_prs": [
                     {
                         "title": "Removed unnecessary empty dict creation in ChoiceWidget.create_option().",
@@ -16758,7 +16839,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 408.43759259250004,
                 "median": 17.502777777777776,
                 "percentile_95": 2873.876111111111,
@@ -17147,6 +17228,9 @@
                 "mean": "1 day, 17:11:36.575758",
                 "median": "1:25:13",
                 "percentile_95": "5 days, 0:41:21.600000",
+                "mean_duration_in_hours": 41.19349326611111,
+                "median_duration_in_hours": 1.4202777777777778,
+                "percentile_95_duration_in_hours": 120.68933333333332,
                 "merged_prs": [
                     {
                         "title": "Documented an example custom context processor",
@@ -17599,6 +17683,9 @@
                 "mean": "-31 days, 13:48:32.352941",
                 "median": "-1 day, 16:24:26.500000",
                 "percentile_95": "0:03:35.400000",
+                "mean_duration_in_hours": -730.1910130719444,
+                "median_duration_in_hours": -7.592638888888889,
+                "percentile_95_duration_in_hours": 0.059833333333333336,
                 "total_prs": [
                     {
                         "title": "Documented an example custom context processor",
@@ -18064,6 +18151,9 @@
                 "mean": "16 days, 10:54:52.814815",
                 "median": "8:37:01",
                 "percentile_95": "105 days, 14:51:39.400000",
+                "mean_duration_in_hours": 394.91467078194444,
+                "median_duration_in_hours": 8.616944444444444,
+                "percentile_95_duration_in_hours": 2534.8609444444446,
                 "total_prs": [
                     {
                         "title": "Documented an example custom context processor",
@@ -18488,7 +18578,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 87.41559413583333,
                 "median": 18.52236111111111,
                 "percentile_95": 412.65777777777777,
@@ -18910,6 +19000,9 @@
                 "mean": "10:18:24.583333",
                 "median": "1:14:37",
                 "percentile_95": "1 day, 8:26:00",
+                "mean_duration_in_hours": 10.306828703611112,
+                "median_duration_in_hours": 1.243611111111111,
+                "percentile_95_duration_in_hours": 32.43333333333333,
                 "merged_prs": [
                     {
                         "title": "Fixed #32442 -- Used converters on returning fields from INSERT statements.",
@@ -19401,6 +19494,9 @@
                 "mean": "-6 days, 0:10:35",
                 "median": "-1 day, 16:12:29",
                 "percentile_95": "0:10:44.600000",
+                "mean_duration_in_hours": -143.82361111111112,
+                "median_duration_in_hours": -7.791944444444445,
+                "percentile_95_duration_in_hours": 0.17905555555555555,
                 "total_prs": [
                     {
                         "title": "Fixed #32442 -- Used converters on returning fields from INSERT statements.",
@@ -19905,6 +20001,9 @@
                 "mean": "2 days, 15:01:31.142857",
                 "median": "4:47:24",
                 "percentile_95": "10 days, 21:27:47.300000",
+                "mean_duration_in_hours": 63.025317460277776,
+                "median_duration_in_hours": 4.79,
+                "percentile_95_duration_in_hours": 261.4631388888889,
                 "total_prs": [
                     {
                         "title": "Fixed #32442 -- Used converters on returning fields from INSERT statements.",
@@ -20364,7 +20463,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 314.0631458333333,
                 "median": 19.7675,
                 "percentile_95": 2551.573416666667,
@@ -20830,6 +20929,9 @@
                 "mean": "6:02:39.250000",
                 "median": "1:29:19.500000",
                 "percentile_95": "18:24:42.950000",
+                "mean_duration_in_hours": 6.044236111111111,
+                "median_duration_in_hours": 1.48875,
+                "percentile_95_duration_in_hours": 18.411930555555553,
                 "merged_prs": [
                     {
                         "title": "Fixed #22640 -- Raised TypeError when instantiating model with keyword and positional args for the same field.",
@@ -21409,6 +21511,9 @@
                 "mean": "-18 days, 6:31:33.341463",
                 "median": "-1 day, 0:37:04",
                 "percentile_95": "0:04:47",
+                "mean_duration_in_hours": -425.4740718158333,
+                "median_duration_in_hours": -23.38222222222222,
+                "percentile_95_duration_in_hours": 0.07972222222222222,
                 "total_prs": [
                     {
                         "title": "Fixed #22640 -- Raised TypeError when instantiating model with keyword and positional args for the same field.",
@@ -22001,6 +22106,9 @@
                 "mean": "18:13:51.142857",
                 "median": "2:39:27",
                 "percentile_95": "3 days, 3:47:44.700000",
+                "mean_duration_in_hours": 18.230873015833332,
+                "median_duration_in_hours": 2.6575,
+                "percentile_95_duration_in_hours": 75.79575,
                 "total_prs": [
                     {
                         "title": "Fixed #22640 -- Raised TypeError when instantiating model with keyword and positional args for the same field.",
@@ -22484,7 +22592,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 254.99783333333332,
                 "median": 18.23263888888889,
                 "percentile_95": 675.2125416666667,
@@ -22958,6 +23066,9 @@
                 "mean": "18:58:15.775000",
                 "median": "1:51:18.500000",
                 "percentile_95": "1 day, 8:41:33.750000",
+                "mean_duration_in_hours": 18.971048611111108,
+                "median_duration_in_hours": 1.855138888888889,
+                "percentile_95_duration_in_hours": 32.692708333333336,
                 "merged_prs": [
                     {
                         "title": "Fixed #32260 -- Made View.as_view() do not use update_wrapper().",
@@ -23533,6 +23644,9 @@
                 "mean": "-15 days, 0:27:57.372093",
                 "median": "-1 day, 14:27:48",
                 "percentile_95": "0:06:31.300000",
+                "mean_duration_in_hours": -359.5340633075,
+                "median_duration_in_hours": -9.536666666666667,
+                "percentile_95_duration_in_hours": 0.10869444444444444,
                 "total_prs": [
                     {
                         "title": "Fixed #32260 -- Made View.as_view() do not use update_wrapper().",
@@ -24159,6 +24273,9 @@
                 "mean": "4 days, 7:53:27.709677",
                 "median": "1:52:19",
                 "percentile_95": "2 days, 5:22:15",
+                "mean_duration_in_hours": 103.89103046583334,
+                "median_duration_in_hours": 1.8719444444444444,
+                "percentile_95_duration_in_hours": 53.37083333333333,
                 "total_prs": [
                     {
                         "title": "Fixed #32260 -- Made View.as_view() do not use update_wrapper().",
@@ -24722,7 +24839,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 144.46394129972222,
                 "median": 19.874166666666667,
                 "percentile_95": 768.9470555555555,
@@ -25339,6 +25456,9 @@
                 "mean": "7:56:22.075472",
                 "median": "1:11:26",
                 "percentile_95": "1 day, 10:57:13.400000",
+                "mean_duration_in_hours": 7.939465408888889,
+                "median_duration_in_hours": 1.1905555555555556,
+                "percentile_95_duration_in_hours": 34.95372222222222,
                 "merged_prs": [
                     {
                         "title": "Fixed #32585 -- Fixed Value() crash with DecimalField on SQLite.",
@@ -26103,6 +26223,9 @@
                 "mean": "-12 days, 15:35:10.821429",
                 "median": "-1 day, 9:30:39.500000",
                 "percentile_95": "0:05:03",
+                "mean_duration_in_hours": -272.41366071416667,
+                "median_duration_in_hours": -14.489027777777778,
+                "percentile_95_duration_in_hours": 0.08416666666666667,
                 "total_prs": [
                     {
                         "title": "Fixed #32585 -- Fixed Value() crash with DecimalField on SQLite.",
@@ -26906,6 +27029,9 @@
                 "mean": "5 days, 8:02:47.951220",
                 "median": "3:26:23",
                 "percentile_95": "50 days, 18:38:24",
+                "mean_duration_in_hours": 128.04665311666668,
+                "median_duration_in_hours": 3.439722222222222,
+                "percentile_95_duration_in_hours": 1218.64,
                 "total_prs": [
                     {
                         "title": "Fixed #32585 -- Fixed Value() crash with DecimalField on SQLite.",
@@ -27417,7 +27543,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 94.39629310333333,
                 "median": 10.146944444444445,
                 "percentile_95": 594.4818333333334,
@@ -27774,6 +27900,9 @@
                 "mean": "3:06:32.206897",
                 "median": "1:08:25",
                 "percentile_95": "13:28:58.600000",
+                "mean_duration_in_hours": 3.108946360277778,
+                "median_duration_in_hours": 1.1402777777777777,
+                "percentile_95_duration_in_hours": 13.482944444444444,
                 "merged_prs": [
                     {
                         "title": "Added note to bump stable branch docs config on release.",
@@ -28178,6 +28307,9 @@
                 "mean": "-6 days, 3:38:47.181818",
                 "median": "-1 day, 22:18:25",
                 "percentile_95": "0:10:32.600000",
+                "mean_duration_in_hours": -140.3535606061111,
+                "median_duration_in_hours": -1.6930555555555555,
+                "percentile_95_duration_in_hours": 0.17572222222222222,
                 "total_prs": [
                     {
                         "title": "Added note to bump stable branch docs config on release.",
@@ -28698,6 +28830,9 @@
                 "mean": "4 days, 20:45:02.160000",
                 "median": "2:54:25",
                 "percentile_95": "37 days, 13:48:50.400000",
+                "mean_duration_in_hours": 116.75059999999999,
+                "median_duration_in_hours": 2.9069444444444446,
+                "percentile_95_duration_in_hours": 901.814,
                 "total_prs": [
                     {
                         "title": "Added note to bump stable branch docs config on release.",
@@ -29104,7 +29239,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 60.99985294111111,
                 "median": 17.149166666666666,
                 "percentile_95": 380.94895833333334,
@@ -29512,6 +29647,9 @@
                 "mean": "5:16:49.323529",
                 "median": "1:28:09.500000",
                 "percentile_95": "16:59:34.500000",
+                "mean_duration_in_hours": 5.280367646944445,
+                "median_duration_in_hours": 1.4693055555555556,
+                "percentile_95_duration_in_hours": 16.992916666666666,
                 "merged_prs": [
                     {
                         "title": "Fixed #32669 -- Fixed detection when started non-django modules which aren't packages with \"python -m\" in autoreloader.",
@@ -29973,6 +30111,9 @@
                 "mean": "-6 days, 23:51:04.027027",
                 "median": "-1 day, 11:25:59",
                 "percentile_95": "0:07:07.400000",
+                "mean_duration_in_hours": -120.14888138138889,
+                "median_duration_in_hours": -12.566944444444445,
+                "percentile_95_duration_in_hours": 0.11872222222222222,
                 "total_prs": [
                     {
                         "title": "Fixed #32669 -- Fixed detection when started non-django modules which aren't packages with \"python -m\" in autoreloader.",
@@ -30485,6 +30626,9 @@
                 "mean": "2 days, 8:57:21.275862",
                 "median": "7:40:24",
                 "percentile_95": "11 days, 3:03:05.600000",
+                "mean_duration_in_hours": 56.95590996166667,
+                "median_duration_in_hours": 7.673333333333333,
+                "percentile_95_duration_in_hours": 267.0515555555555,
                 "total_prs": [
                     {
                         "title": "Fixed #32669 -- Fixed detection when started non-django modules which aren't packages with \"python -m\" in autoreloader.",
@@ -30913,7 +31057,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 100.65802287583332,
                 "median": 20.29111111111111,
                 "percentile_95": 626.4653194444444,
@@ -31321,6 +31465,9 @@
                 "mean": "4:12:31",
                 "median": "0:59:06",
                 "percentile_95": "21:24:13.250000",
+                "mean_duration_in_hours": 4.208611111111111,
+                "median_duration_in_hours": 0.985,
+                "percentile_95_duration_in_hours": 21.403680555555557,
                 "merged_prs": [
                     {
                         "title": "Refs #24121 -- Added __repr__() to StaticNode.",
@@ -31814,6 +31961,9 @@
                 "mean": "-10 days, 23:42:28.675676",
                 "median": "-1 day, 13:00:18",
                 "percentile_95": "0:15:39.200000",
+                "mean_duration_in_hours": -216.29203453444447,
+                "median_duration_in_hours": -10.995,
+                "percentile_95_duration_in_hours": 0.2608888888888889,
                 "total_prs": [
                     {
                         "title": "Refs #24121 -- Added __repr__() to StaticNode.",
@@ -32422,6 +32572,9 @@
                 "mean": "2 days, 4:19:34.666667",
                 "median": "3:35:14",
                 "percentile_95": "9 days, 5:27:49.500000",
+                "mean_duration_in_hours": 52.32629629638889,
+                "median_duration_in_hours": 3.587222222222222,
+                "percentile_95_duration_in_hours": 221.46375,
                 "total_prs": [
                     {
                         "title": "Refs #24121 -- Added __repr__() to StaticNode.",
@@ -32871,7 +33024,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 242.51003654972223,
                 "median": 44.348194444444445,
                 "percentile_95": 1069.416888888889,
@@ -33327,6 +33480,9 @@
                 "mean": "2:23:31.184211",
                 "median": "1:01:48",
                 "percentile_95": "9:57:22.200000",
+                "mean_duration_in_hours": 2.3919956141666665,
+                "median_duration_in_hours": 1.03,
+                "percentile_95_duration_in_hours": 9.956166666666666,
                 "merged_prs": [
                     {
                         "title": "Fixed #32777 -- Passed table reference as a string to DatabaseSchemaEditor._index_columns().",
@@ -33908,6 +34064,9 @@
                 "mean": "-13 days, 3:25:57.071429",
                 "median": "-2 days, 9:30:53",
                 "percentile_95": "0:03:19.100000",
+                "mean_duration_in_hours": -308.5674801586111,
+                "median_duration_in_hours": -38.485277777777775,
+                "percentile_95_duration_in_hours": 0.05530555555555555,
                 "total_prs": [
                     {
                         "title": "Fixed #32777 -- Passed table reference as a string to DatabaseSchemaEditor._index_columns().",
@@ -34545,6 +34704,9 @@
                 "mean": "5 days, 12:06:01.392857",
                 "median": "13:42:04.500000",
                 "percentile_95": "30 days, 15:15:24.350000",
+                "mean_duration_in_hours": 132.10038690472223,
+                "median_duration_in_hours": 13.70125,
+                "percentile_95_duration_in_hours": 735.2567638888889,
                 "total_prs": [
                     {
                         "title": "Fixed #32777 -- Passed table reference as a string to DatabaseSchemaEditor._index_columns().",
@@ -35050,7 +35212,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 189.61417958666667,
                 "median": 15.734722222222222,
                 "percentile_95": 1368.1084999999998,
@@ -35565,6 +35727,9 @@
                 "mean": "1:43:09.906977",
                 "median": "0:42:19",
                 "percentile_95": "12:30:57.100000",
+                "mean_duration_in_hours": 1.7194186047222222,
+                "median_duration_in_hours": 0.7052777777777778,
+                "percentile_95_duration_in_hours": 12.51586111111111,
                 "merged_prs": [
                     {
                         "title": "Fixed #32821 -- Updated os.scandir() uses to use a context manager.",
@@ -36211,6 +36376,9 @@
                 "mean": "-15 days, 0:01:56.229167",
                 "median": "-1 day, 6:16:27",
                 "percentile_95": "0:07:28.400000",
+                "mean_duration_in_hours": -359.9677141202778,
+                "median_duration_in_hours": -17.725833333333334,
+                "percentile_95_duration_in_hours": 0.12455555555555554,
                 "total_prs": [
                     {
                         "title": "Fixed #32821 -- Updated os.scandir() uses to use a context manager.",
@@ -36962,6 +37130,9 @@
                 "mean": "3 days, 2:54:18.833333",
                 "median": "10:03:24.500000",
                 "percentile_95": "18 days, 13:24:58.950000",
+                "mean_duration_in_hours": 74.9052314813889,
+                "median_duration_in_hours": 10.056805555555556,
+                "percentile_95_duration_in_hours": 445.41637499999996,
                 "total_prs": [
                     {
                         "title": "Fixed #32821 -- Updated os.scandir() uses to use a context manager.",
@@ -37422,7 +37593,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 224.48044238694445,
                 "median": 52.13638888888889,
                 "percentile_95": 1167.3503055555555,
@@ -37753,6 +37924,9 @@
                 "mean": "13:03:50.148148",
                 "median": "0:45:23",
                 "percentile_95": "4 days, 13:22:05.400000",
+                "mean_duration_in_hours": 13.063930041111112,
+                "median_duration_in_hours": 0.7563888888888889,
+                "percentile_95_duration_in_hours": 109.36816666666667,
                 "merged_prs": [
                     {
                         "title": "Refs #32508 -- Raised ImproperlyConfigured/TypeError instead of using \"assert\" in various code.",
@@ -38135,6 +38309,9 @@
                 "mean": "-10 days, 12:23:52.866667",
                 "median": "-2 days, 10:32:12.500000",
                 "percentile_95": "0:10:03.400000",
+                "mean_duration_in_hours": -227.6019814813889,
+                "median_duration_in_hours": -37.46319444444445,
+                "percentile_95_duration_in_hours": 0.1676111111111111,
                 "total_prs": [
                     {
                         "title": "Refs #32508 -- Raised ImproperlyConfigured/TypeError instead of using \"assert\" in various code.",
@@ -38564,6 +38741,9 @@
                 "mean": "7 days, 20:37:00.150000",
                 "median": "15:25:02",
                 "percentile_95": "30 days, 14:01:54.550000",
+                "mean_duration_in_hours": 188.61670833333335,
+                "median_duration_in_hours": 15.417222222222222,
+                "percentile_95_duration_in_hours": 734.0318194444444,
                 "total_prs": [
                     {
                         "title": "Refs #32508 -- Raised ImproperlyConfigured/TypeError instead of using \"assert\" in various code.",
@@ -38929,7 +39109,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 60.27296296305556,
                 "median": 22.741944444444446,
                 "percentile_95": 113.04518055555556,
@@ -39281,6 +39461,9 @@
                 "mean": "2:56:24.233333",
                 "median": "0:50:31.500000",
                 "percentile_95": "17:55:53.150000",
+                "mean_duration_in_hours": 2.940064814722222,
+                "median_duration_in_hours": 0.8420833333333333,
+                "percentile_95_duration_in_hours": 17.931430555555554,
                 "merged_prs": [
                     {
                         "title": "Refs #32880 -- Created a new logging how-to document.",
@@ -39726,6 +39909,9 @@
                 "mean": "-4 days, 10:06:00.200000",
                 "median": "-2 days, 22:05:40.500000",
                 "percentile_95": "0:04:25.050000",
+                "mean_duration_in_hours": -85.89994444444444,
+                "median_duration_in_hours": -25.905416666666667,
+                "percentile_95_duration_in_hours": 0.07362500000000001,
                 "total_prs": [
                     {
                         "title": "Refs #32880 -- Created a new logging how-to document.",
@@ -40171,6 +40357,9 @@
                 "mean": "9:57:34.956522",
                 "median": "5:25:45",
                 "percentile_95": "1 day, 17:29:21.800000",
+                "mean_duration_in_hours": 9.959710145,
+                "median_duration_in_hours": 5.429166666666666,
+                "percentile_95_duration_in_hours": 41.48938888888888,
                 "total_prs": [
                     {
                         "title": "Refs #32880 -- Created a new logging how-to document.",
@@ -40618,7 +40807,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 52.06850845416667,
                 "median": 10.631805555555555,
                 "percentile_95": 283.0072916666667,
@@ -41166,6 +41355,9 @@
                 "mean": "6:40:54.152174",
                 "median": "1:32:47.500000",
                 "percentile_95": "20:06:03.750000",
+                "mean_duration_in_hours": 6.681708937222222,
+                "median_duration_in_hours": 1.5465277777777777,
+                "percentile_95_duration_in_hours": 20.101041666666667,
                 "merged_prs": [
                     {
                         "title": "Removed unnecessary tuple construction in Node.__eq__().",
@@ -41815,6 +42007,9 @@
                 "mean": "-10 days, 23:32:36.235294",
                 "median": "-1 day, 21:06:32",
                 "percentile_95": "0:25:32",
+                "mean_duration_in_hours": -216.45660130722223,
+                "median_duration_in_hours": -2.891111111111111,
+                "percentile_95_duration_in_hours": 0.4255555555555556,
                 "total_prs": [
                     {
                         "title": "Removed unnecessary tuple construction in Node.__eq__().",
@@ -42541,6 +42736,9 @@
                 "mean": "2 days, 17:17:55.128205",
                 "median": "1:18:17",
                 "percentile_95": "14 days, 14:34:28.900000",
+                "mean_duration_in_hours": 65.29864672361111,
+                "median_duration_in_hours": 1.3047222222222221,
+                "percentile_95_duration_in_hours": 350.57469444444445,
                 "total_prs": [
                     {
                         "title": "Removed unnecessary tuple construction in Node.__eq__().",
@@ -43081,7 +43279,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 181.93925694444442,
                 "median": 23.027083333333334,
                 "percentile_95": 1304.03675,
@@ -43567,6 +43765,9 @@
                 "mean": "6:43:57.750000",
                 "median": "1:41:27",
                 "percentile_95": "20:27:51.500000",
+                "mean_duration_in_hours": 6.732708333333333,
+                "median_duration_in_hours": 1.6908333333333334,
+                "percentile_95_duration_in_hours": 20.464305555555555,
                 "merged_prs": [
                     {
                         "title": "Fixed #32980 -- Made models cache related managers.",
@@ -44166,6 +44367,9 @@
                 "mean": "-15 days, 4:57:16.434783",
                 "median": "-2 days, 22:43:56",
                 "percentile_95": "0:08:24.500000",
+                "mean_duration_in_hours": -355.04543478249997,
+                "median_duration_in_hours": -25.267777777777777,
+                "percentile_95_duration_in_hours": 0.1401388888888889,
                 "total_prs": [
                     {
                         "title": "Fixed #26142 -- Added a 'edit only' mode for model formsets",
@@ -44967,6 +45171,9 @@
                 "mean": "4 days, 23:02:32.921053",
                 "median": "8:13:11.500000",
                 "percentile_95": "44 days, 12:09:56.600000",
+                "mean_duration_in_hours": 119.04247807027778,
+                "median_duration_in_hours": 8.219861111111111,
+                "percentile_95_duration_in_hours": 1068.1657222222223,
                 "total_prs": [
                     {
                         "title": "Fixed #26142 -- Added a 'edit only' mode for model formsets",
@@ -45334,6 +45541,11 @@
                         "created_at": "2021-08-07 16:34:32+00:00"
                     },
                     {
+                        "author": "jacobtylerwalls",
+                        "merged_at": "2022-01-10 19:33:24+00:00",
+                        "created_at": "2021-08-07 14:53:57+00:00"
+                    },
+                    {
                         "author": "kezabelle",
                         "merged_at": "2021-11-03 11:27:43+00:00",
                         "created_at": "2021-08-06 15:31:42+00:00"
@@ -45429,15 +45641,15 @@
                     "mgorny",
                     "partofthething"
                 ],
-                "merge_rate": 1.7222222222222223
+                "merge_rate": 1.7777777777777777
             },
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
-                "mean": 249.47877240138888,
-                "median": 79.83222222222223,
-                "percentile_95": 1073.9294444444445,
+            "open_to_merge": {
+                "mean": 324.7937152777778,
+                "median": 81.86138888888888,
+                "percentile_95": 1283.6439166666667,
                 "total_prs": [
                     {
                         "title": "Fixed #32964 -- Corrected 'setup'/'set up' usage in docs.",
@@ -45552,6 +45764,13 @@
                         "duration_in_hours": 30.993333333333332
                     },
                     {
+                        "title": "Fixed #29026 -- Added --scriptable option to makemigrations.",
+                        "author": "jacobtylerwalls",
+                        "created_at": "2021-08-07 14:53:57+00:00",
+                        "merged_at": "2022-01-10 19:33:24+00:00",
+                        "duration_in_hours": 2659.5569444444445
+                    },
+                    {
                         "title": "Fixed #32996 -- Cached PathInfos on relations.",
                         "author": "kezabelle",
                         "created_at": "2021-08-06 15:31:42+00:00",
@@ -45657,7 +45876,7 @@
                         "duration_in_hours": 43.13722222222222
                     }
                 ],
-                "merged_pr_rate": 93.94
+                "merged_pr_rate": 96.97
             },
             "pr_size": {
                 "total_prs": [
@@ -45726,8 +45945,8 @@
                         "deletions": 3
                     },
                     {
-                        "additions": 49,
-                        "deletions": 5
+                        "additions": 74,
+                        "deletions": 3
                     },
                     {
                         "additions": 182,
@@ -45794,17 +46013,20 @@
                         "deletions": 6
                     }
                 ],
-                "total_mean": 52.333333333333336,
+                "total_mean": 53.03030303030303,
                 "total_median": 34.0,
                 "total_percentile_95": 194.79999999999995,
-                "rate_mean": 29.545454545454547,
+                "rate_mean": 30.363636363636363,
                 "rate_median": 21.0,
                 "rate_percentile_95": 115.79999999999991
             },
             "time_to_merge": {
-                "mean": "13:56:20.483871",
-                "median": "1:10:04",
-                "percentile_95": "3 days, 6:16:23.500000",
+                "mean": "13:33:26.312500",
+                "median": "1:12:31",
+                "percentile_95": "3 days, 2:13:57.750000",
+                "mean_duration_in_hours": 13.557309027777778,
+                "median_duration_in_hours": 1.208611111111111,
+                "percentile_95_duration_in_hours": 74.23270833333333,
                 "merged_prs": [
                     {
                         "title": "Fixed #32964 -- Corrected 'setup'/'set up' usage in docs.",
@@ -46047,6 +46269,19 @@
                         ]
                     },
                     {
+                        "title": "Fixed #29026 -- Added --scriptable option to makemigrations.",
+                        "author": "jacobtylerwalls",
+                        "created_at": "2021-08-07 14:53:57+00:00",
+                        "merged_at": "2022-01-10 19:33:24+00:00",
+                        "closed_at": "2022-01-10 19:33:24+00:00",
+                        "commits": [
+                            {
+                                "message": "Fixed #29026 -- Added --scriptable option to makemigrations.",
+                                "commited_at": "2022-01-10 17:49:57+00:00"
+                            }
+                        ]
+                    },
+                    {
                         "title": "Fixed #32996 -- Cached PathInfos on relations.",
                         "author": "kezabelle",
                         "created_at": "2021-08-06 15:31:42+00:00",
@@ -46280,9 +46515,12 @@
                 ]
             },
             "time_to_open": {
-                "mean": "-21 days, 14:37:10.545455",
+                "mean": "-21 days, 9:28:57.969697",
                 "median": "-3 days, 4:37:41",
                 "percentile_95": "0:05:40.400000",
+                "mean_duration_in_hours": -494.51723063972224,
+                "median_duration_in_hours": -67.37194444444444,
+                "percentile_95_duration_in_hours": 0.09455555555555555,
                 "total_prs": [
                     {
                         "title": "Fixed #32964 -- Corrected 'setup'/'set up' usage in docs.",
@@ -46525,27 +46763,15 @@
                         ]
                     },
                     {
-                        "title": "Fixed #29026 -- Created --scriptable option for makemigrations.",
+                        "title": "Fixed #29026 -- Added --scriptable option to makemigrations.",
                         "author": "jacobtylerwalls",
                         "created_at": "2021-08-07 14:53:57+00:00",
-                        "merged_at": null,
-                        "closed_at": null,
+                        "merged_at": "2022-01-10 19:33:24+00:00",
+                        "closed_at": "2022-01-10 19:33:24+00:00",
                         "commits": [
                             {
-                                "message": "Fixed #29026 -- Created --scriptable option for structured output from makemigrations.",
-                                "commited_at": "2022-01-03 16:19:02+00:00"
-                            },
-                            {
-                                "message": "Review comments and handle additional interactive questioner",
-                                "commited_at": "2022-01-03 20:23:28+00:00"
-                            },
-                            {
-                                "message": "log_output property",
-                                "commited_at": "2022-01-06 14:15:11+00:00"
-                            },
-                            {
-                                "message": "Remove the ERROR style.",
-                                "commited_at": "2022-01-08 03:16:23+00:00"
+                                "message": "Fixed #29026 -- Added --scriptable option to makemigrations.",
+                                "commited_at": "2022-01-10 17:49:57+00:00"
                             }
                         ]
                     },
@@ -46803,6 +47029,9 @@
                 "mean": "5 days, 5:07:36.884615",
                 "median": "6:08:06.500000",
                 "percentile_95": "39 days, 3:28:36.500000",
+                "mean_duration_in_hours": 125.12691239305555,
+                "median_duration_in_hours": 6.135138888888889,
+                "percentile_95_duration_in_hours": 939.4768055555555,
                 "total_prs": [
                     {
                         "title": "Fixed #32964 -- Corrected 'setup'/'set up' usage in docs.",
@@ -46901,7 +47130,7 @@
                         "first_review_at": "2021-08-07 23:08:26+00:00"
                     },
                     {
-                        "title": "Fixed #29026 -- Created --scriptable option for makemigrations.",
+                        "title": "Fixed #29026 -- Added --scriptable option to makemigrations.",
                         "author": "jacobtylerwalls",
                         "created_at": "2021-08-07 14:53:57+00:00",
                         "first_review_at": "2021-08-07 15:21:48+00:00"
@@ -47128,7 +47357,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 272.6564619883333,
                 "median": 49.37222222222222,
                 "percentile_95": 1086.4598611111112,
@@ -47379,6 +47608,9 @@
                 "mean": "3:16:09.315789",
                 "median": "1:12:39",
                 "percentile_95": "12:18:41.200000",
+                "mean_duration_in_hours": 3.2692543858333334,
+                "median_duration_in_hours": 1.2108333333333334,
+                "percentile_95_duration_in_hours": 12.311444444444444,
                 "merged_prs": [
                     {
                         "title": "Fixed #29470 -- Logged makemigrations automatic decisions in non-interactive mode.",
@@ -47653,6 +47885,9 @@
                 "mean": "-15 days, 11:13:06.541667",
                 "median": "-1 day, 6:38:30.500000",
                 "percentile_95": "0:26:46.500000",
+                "mean_duration_in_hours": -348.78151620361115,
+                "median_duration_in_hours": -17.358194444444443,
+                "percentile_95_duration_in_hours": 0.44625,
                 "total_prs": [
                     {
                         "title": "Fixed #33004 -- Raise error from save() when private fields(GFKs) gets unsaved object",
@@ -48008,6 +48243,9 @@
                 "mean": "8 days, 7:59:02.055556",
                 "median": "4:42:45",
                 "percentile_95": "42 days, 2:16:10.700000",
+                "mean_duration_in_hours": 199.9839043211111,
+                "median_duration_in_hours": 4.7125,
+                "percentile_95_duration_in_hours": 1010.269638888889,
                 "total_prs": [
                     {
                         "title": "Fixed #33004 -- Raise error from save() when private fields(GFKs) gets unsaved object",
@@ -48322,7 +48560,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 98.1741358025,
                 "median": 23.305555555555557,
                 "percentile_95": 449.9063888888889,
@@ -48665,6 +48903,9 @@
                 "mean": "6:31:50.148148",
                 "median": "1:12:25",
                 "percentile_95": "1 day, 14:14:17.500000",
+                "mean_duration_in_hours": 6.530596707777778,
+                "median_duration_in_hours": 1.2069444444444444,
+                "percentile_95_duration_in_hours": 38.238194444444446,
                 "merged_prs": [
                     {
                         "title": "Fixed #33104 -- Fixed wrapping of long words in admin readonly fields.",
@@ -49043,6 +49284,9 @@
                 "mean": "-5 days, 6:50:17.878788",
                 "median": "-1 day, 5:42:10",
                 "percentile_95": "0:07:42.800000",
+                "mean_duration_in_hours": -113.16170033666667,
+                "median_duration_in_hours": -18.29722222222222,
+                "percentile_95_duration_in_hours": 0.12855555555555556,
                 "total_prs": [
                     {
                         "title": "Fixed #33104 -- Fixed wrapping of long words in admin readonly fields.",
@@ -49531,6 +49775,9 @@
                 "mean": "5 days, 11:01:08",
                 "median": "10:51:50",
                 "percentile_95": "32 days, 2:50:08",
+                "mean_duration_in_hours": 131.01888888888888,
+                "median_duration_in_hours": 10.863888888888889,
+                "percentile_95_duration_in_hours": 770.8355555555555,
                 "total_prs": [
                     {
                         "title": "Fixed #33104 -- Fixed wrapping of long words in admin readonly fields.",
@@ -49951,7 +50198,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 78.07949699694444,
                 "median": 17.037222222222223,
                 "percentile_95": 320.31655555555557,
@@ -50380,6 +50627,9 @@
                 "mean": "3:28:33.162162",
                 "median": "1:15:30",
                 "percentile_95": "16:33:57",
+                "mean_duration_in_hours": 3.4758783783333334,
+                "median_duration_in_hours": 1.2583333333333333,
+                "percentile_95_duration_in_hours": 16.565833333333334,
                 "merged_prs": [
                     {
                         "title": "Fixed #30398 -- Added CONN_HEALTH_CHECKS database setting.",
@@ -50928,6 +51178,9 @@
                 "mean": "-5 days, 11:48:48.324324",
                 "median": "-1 day, 11:43:45",
                 "percentile_95": "0:03:14.800000",
+                "mean_duration_in_hours": -108.18657657666667,
+                "median_duration_in_hours": -12.270833333333334,
+                "percentile_95_duration_in_hours": 0.05411111111111112,
                 "total_prs": [
                     {
                         "title": "Fixed #30398 -- Added CONN_HEALTH_CHECKS database setting.",
@@ -51476,6 +51729,9 @@
                 "mean": "1 day, 7:03:46.366667",
                 "median": "2:48:42",
                 "percentile_95": "4 days, 21:10:19.500000",
+                "mean_duration_in_hours": 31.06287962972222,
+                "median_duration_in_hours": 2.8116666666666665,
+                "percentile_95_duration_in_hours": 117.17208333333333,
                 "total_prs": [
                     {
                         "title": "Fixed #30398 -- Added CONN_HEALTH_CHECKS database setting.",
@@ -51910,7 +52166,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 80.10130158722222,
                 "median": 13.9875,
                 "percentile_95": 515.9796944444444,
@@ -52341,6 +52597,9 @@
                 "mean": "6:43:06.200000",
                 "median": "1:25:14",
                 "percentile_95": "22:26:45",
+                "mean_duration_in_hours": 6.718388888888889,
+                "median_duration_in_hours": 1.4205555555555556,
+                "percentile_95_duration_in_hours": 22.445833333333333,
                 "merged_prs": [
                     {
                         "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
@@ -52827,6 +53086,9 @@
                 "mean": "-4 days, 7:43:09.073171",
                 "median": "-1 day, 21:55:46",
                 "percentile_95": "0:49:07",
+                "mean_duration_in_hours": -88.28081300805556,
+                "median_duration_in_hours": -2.0705555555555555,
+                "percentile_95_duration_in_hours": 0.8186111111111111,
                 "total_prs": [
                     {
                         "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
@@ -53451,6 +53713,9 @@
                 "mean": "2 days, 3:03:53.375000",
                 "median": "3:05:55.500000",
                 "percentile_95": "12 days, 19:27:02.100000",
+                "mean_duration_in_hours": 51.06482638888889,
+                "median_duration_in_hours": 3.09875,
+                "percentile_95_duration_in_hours": 307.4505833333334,
                 "total_prs": [
                     {
                         "title": "Refs #25916 -- Added tests for a callable lastmod on Sitemaps. ",
@@ -53898,7 +54163,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 108.96468013472223,
                 "median": 13.733333333333333,
                 "percentile_95": 699.9773333333333,
@@ -54283,6 +54548,9 @@
                 "mean": "4:43:27.515152",
                 "median": "1:12:59",
                 "percentile_95": "15:36:16.400000",
+                "mean_duration_in_hours": 4.7243097644444445,
+                "median_duration_in_hours": 1.216388888888889,
+                "percentile_95_duration_in_hours": 15.604555555555557,
                 "merged_prs": [
                     {
                         "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
@@ -54727,6 +54995,9 @@
                 "mean": "-7 days, 19:22:28.454545",
                 "median": "-1 day, 11:24:41",
                 "percentile_95": "0:06:09",
+                "mean_duration_in_hours": -148.62542929305556,
+                "median_duration_in_hours": -12.588611111111112,
+                "percentile_95_duration_in_hours": 0.1025,
                 "total_prs": [
                     {
                         "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
@@ -55171,6 +55442,9 @@
                 "mean": "1 day, 10:07:44.666667",
                 "median": "4:08:40",
                 "percentile_95": "7 days, 19:03:26.250000",
+                "mean_duration_in_hours": 34.12907407416667,
+                "median_duration_in_hours": 4.144444444444445,
+                "percentile_95_duration_in_hours": 187.05729166666666,
                 "total_prs": [
                     {
                         "title": "Fixed #16063 -- Adjusted admin changelist searches spanning multi-valued relationships.",
@@ -55576,7 +55850,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 62.81963235305556,
                 "median": 13.355138888888888,
                 "percentile_95": 328.02481944444446,
@@ -55980,6 +56254,9 @@
                 "mean": "4:39:36.941176",
                 "median": "1:25:57",
                 "percentile_95": "18:21:29.400000",
+                "mean_duration_in_hours": 4.660261437777778,
+                "median_duration_in_hours": 1.4325,
+                "percentile_95_duration_in_hours": 18.358166666666666,
                 "merged_prs": [
                     {
                         "title": "Refs #32338 -- Added Boundfield.legend_tag().",
@@ -56453,6 +56730,9 @@
                 "mean": "-4 days, 15:13:07.638889",
                 "median": "-1 day, 13:28:57.500000",
                 "percentile_95": "0:04:08",
+                "mean_duration_in_hours": -80.78121141972223,
+                "median_duration_in_hours": -10.51736111111111,
+                "percentile_95_duration_in_hours": 0.06888888888888889,
                 "total_prs": [
                     {
                         "title": "Refs #32338 -- Added Boundfield.legend_tag().",
@@ -56952,6 +57232,9 @@
                 "mean": "23:54:32.392857",
                 "median": "3:04:10",
                 "percentile_95": "6 days, 11:19:01.300000",
+                "mean_duration_in_hours": 23.908998015833333,
+                "median_duration_in_hours": 3.0694444444444446,
+                "percentile_95_duration_in_hours": 155.31702777777778,
                 "total_prs": [
                     {
                         "title": "Refs #32338 -- Added Boundfield.legend_tag().",
@@ -57316,7 +57599,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 72.894710145,
                 "median": 20.912222222222223,
                 "percentile_95": 266.4575277777778,
@@ -57591,6 +57874,9 @@
                 "mean": "1 day, 13:04:36.347826",
                 "median": "1:33:56",
                 "percentile_95": "11:51:01.500000",
+                "mean_duration_in_hours": 37.076763285000006,
+                "median_duration_in_hours": 1.5655555555555556,
+                "percentile_95_duration_in_hours": 11.850416666666666,
                 "merged_prs": [
                     {
                         "title": "Fixed #33301 -- Clarified the type of arguments required by custom assertions.",
@@ -57921,6 +58207,9 @@
                 "mean": "-3 days, 19:31:58.608696",
                 "median": "-1 day, 3:03:07",
                 "percentile_95": "0:21:55.600000",
+                "mean_duration_in_hours": -52.46705314,
+                "median_duration_in_hours": -20.948055555555555,
+                "percentile_95_duration_in_hours": 0.3654444444444444,
                 "total_prs": [
                     {
                         "title": "Fixed #33301 -- Clarified the type of arguments required by custom assertions.",
@@ -58251,6 +58540,9 @@
                 "mean": "2 days, 7:44:13.833333",
                 "median": "1:59:11.500000",
                 "percentile_95": "9 days, 13:44:32.950000",
+                "mean_duration_in_hours": 55.73717592583333,
+                "median_duration_in_hours": 1.9865277777777777,
+                "percentile_95_duration_in_hours": 229.7424861111111,
                 "total_prs": [
                     {
                         "title": "Fixed #33301 -- Clarified the type of arguments required by custom assertions.",
@@ -58584,7 +58876,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 68.57236979166667,
                 "median": 11.110972222222221,
                 "percentile_95": 232.48791666666668,
@@ -58986,6 +59278,9 @@
                 "mean": "15:22:00.937500",
                 "median": "1:28:00",
                 "percentile_95": "3 days, 12:40:23",
+                "mean_duration_in_hours": 15.366927083333334,
+                "median_duration_in_hours": 1.4666666666666666,
+                "percentile_95_duration_in_hours": 84.67305555555555,
                 "merged_prs": [
                     {
                         "title": "Fixed #33316 -- Added pagination to admin history view.",
@@ -59453,6 +59748,9 @@
                 "mean": "-4 days, 0:20:10.769231",
                 "median": "-1 day, 12:23:23",
                 "percentile_95": "0:22:38.800000",
+                "mean_duration_in_hours": -95.66367521361111,
+                "median_duration_in_hours": -11.610277777777778,
+                "percentile_95_duration_in_hours": 0.3774444444444444,
                 "total_prs": [
                     {
                         "title": "Fixed #33316 -- Added pagination to admin history view.",
@@ -60027,6 +60325,9 @@
                 "mean": "2 days, 0:24:48.687500",
                 "median": "5:28:22",
                 "percentile_95": "8 days, 22:51:26.950000",
+                "mean_duration_in_hours": 48.413524305555555,
+                "median_duration_in_hours": 5.472777777777778,
+                "percentile_95_duration_in_hours": 214.8574861111111,
                 "total_prs": [
                     {
                         "title": "Fixed #33316 -- Added pagination to admin history view.",
@@ -60466,7 +60767,7 @@
             "hotfixes": {
                 "hotfix_list": []
             },
-            "merge_time": {
+            "open_to_merge": {
                 "mean": 54.23227941166667,
                 "median": 16.17125,
                 "percentile_95": 267.7040416666667,
@@ -60902,6 +61203,9 @@
                 "mean": "4:50:44.647059",
                 "median": "1:54:46",
                 "percentile_95": "13:21:51.800000",
+                "mean_duration_in_hours": 4.8457352941666665,
+                "median_duration_in_hours": 1.9127777777777777,
+                "percentile_95_duration_in_hours": 13.36438888888889,
                 "merged_prs": [
                     {
                         "title": "Optimized MiddlewareMixin coroutine check.",
@@ -61403,6 +61707,9 @@
                 "mean": "-4 days, 22:58:36.181818",
                 "median": "-1 day, 16:40:31",
                 "percentile_95": "0:17:03.650000",
+                "mean_duration_in_hours": -73.02328282833334,
+                "median_duration_in_hours": -7.324722222222222,
+                "percentile_95_duration_in_hours": 0.2843472222222222,
                 "total_prs": [
                     {
                         "title": "Optimized MiddlewareMixin coroutine check.",
@@ -62154,6 +62461,9 @@
                 "mean": "1 day, 1:20:59.419355",
                 "median": "5:31:25",
                 "percentile_95": "4 days, 19:04:03",
+                "mean_duration_in_hours": 25.349838709722224,
+                "median_duration_in_hours": 5.523611111111111,
+                "percentile_95_duration_in_hours": 115.0675,
                 "total_prs": [
                     {
                         "title": "Optimized MiddlewareMixin coroutine check.",
