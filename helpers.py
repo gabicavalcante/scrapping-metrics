@@ -15,7 +15,7 @@ def get_open_to_merge_dataframe():
     with open(FILEPATH) as f:
         content = json.load(f)
 
-    data = [[i["key"], i["open_to_merge"]["mean"], i["open_to_merge"]["median"], i["open_to_merge"]["percentile_95"], i["open_to_merge"]["merged_pr_rate"]] for i in content["metrics"]]
+    data = [[i["key"], i["open_to_merge"]["mean_duration_in_hours"], i["open_to_merge"]["median_duration_in_hours"], i["open_to_merge"]["percentile_95_duration_in_hours"], i["open_to_merge"]["merged_pr_rate"]] for i in content["metrics"]]
     df = pd.DataFrame(data, columns=["Week", "Mean", "Median", "Percentile 95", "Merge Rate"])
     return df
 
