@@ -11,6 +11,7 @@
     - ORG_NAME
     - REPOSITORY_NAME
     - TOKEN
+    - EXCLUDE_AUTHORS
 - To fill the data retroactively you should run:
     - The script considers sprints of 2 weeks and 2019-12-30 as the start date
 
