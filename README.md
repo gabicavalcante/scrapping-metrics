@@ -42,7 +42,6 @@ $ heroku ps:scale web=1  # run the app with a 1 heroku "dyno"
 
 ## TODO
 - Improve code
-- Open a PR for github metrics. Why is the repo private?
 - Separate metrics per squad
 - Include hotfixes metrics
 
