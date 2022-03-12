@@ -27,6 +27,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           ORG_NAME: ${{ secrets.ORG_NAME }}
           REPOSITORY_NAME: ${{ secrets.REPOSITORY_NAME }}
+      - name: Export Dashboard
+        run: python export.py
 
       - name: Commit and push if it changed
         run: |-

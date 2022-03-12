@@ -13,7 +13,6 @@ from github_metrics.metrics.time_to_review import get_time_to_review_data
 from github_metrics.request import fetch_prs_between
 
 
-
 def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weekends, exclude_authors, filter_authors):
     key = f"{start_date}-{end_date}"
     start_date = arrow.get(start_date)
@@ -32,44 +31,44 @@ def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weeke
     merge_rate = get_merge_rate_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
-        exclude_authors=exclude_authors,
-        filter_authors=filter_authors,
+        exclude_authors=exclude_user_list,
+        filter_authors=filter_user_list,
     )
     hotfixes = get_hotfixes_data(
-        pr_list=pr_list, exclude_authors=exclude_authors, filter_authors=filter_authors
+        pr_list=pr_list, exclude_authors=exclude_user_list, filter_authors=filter_user_list
     )
     open_to_merge = get_open_to_merge_time_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
-        exclude_authors=exclude_authors,
-        filter_authors=filter_authors,
+        exclude_authors=exclude_user_list,
+        filter_authors=filter_user_list,
         exclude_weekends=exclude_weekends,
     )
     pr_size = get_pr_size_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
-        exclude_authors=exclude_authors,
-        filter_authors=filter_authors,
+        exclude_authors=exclude_user_list,
+        filter_authors=filter_user_list,
     )
     time_to_merge = get_time_to_merge_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
-        exclude_authors=exclude_authors,
-        filter_authors=filter_authors,
+        exclude_authors=exclude_user_list,
+        filter_authors=filter_user_list,
         exclude_weekends=exclude_weekends,
     )
     time_to_open = get_time_to_open_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
-        exclude_authors=exclude_authors,
-        filter_authors=filter_authors,
+        exclude_authors=exclude_user_list,
+        filter_authors=filter_user_list,
         exclude_weekends=exclude_weekends,
     )
     time_to_review = get_time_to_review_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
-        exclude_authors=exclude_authors,
-        filter_authors=filter_authors,
+        exclude_authors=exclude_user_list,
+        filter_authors=filter_user_list,
         exclude_weekends=exclude_weekends,
     )
 

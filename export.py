@@ -1,37 +1,22 @@
-# Run this app with `python app.py` and
-# visit http://127.0.0.1:8050/ in your web browser.
-import os
-
-import dash
-import plotly.graph_objects as go
-import plotly.express as px
-import pandas as pd
 import numpy as np
 
-from dash import dcc
-from dash import html
+from constants import (
+    IDEAL_MERGE_RATE, IDEAL_OPEN_TO_MERGE, IDEAL_PR_SIZE, IDEAL_TIME_TO_REVIEW,
+    IDEAL_TIME_TO_OPEN, IDEAL_TIME_TO_MERGE
+)
 from helpers import (
     get_merge_rate_dataframe,
     get_open_to_merge_dataframe,
     get_pr_size_metrics_dataframe,
     get_open_to_merge_for_last_week_dataframe,
+    get_prs_table_dataframe,
     get_raw_metrics_from_file,
+    get_team_stats_dataframe,
     get_time_to_review_dataframe,
     get_time_to_open_dataframe,
     get_time_to_merge_dataframe,
 )
-from plots import plot_line_chart, plot_line_chart_with_bar, plot_pie_chart
-from constants import (
-    IDEAL_MERGE_RATE, IDEAL_OPEN_TO_MERGE, IDEAL_PR_SIZE, IDEAL_TIME_TO_REVIEW,
-    IDEAL_TIME_TO_OPEN, IDEAL_TIME_TO_MERGE
-)
-
-app = dash.Dash(__name__)
-
-server = app.server
-
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
+from plots import plot_line_chart, plot_line_chart_with_bar, plot_pie_chart, plot_table_chart
 
 content = get_raw_metrics_from_file()
 
@@ -62,49 +47,19 @@ time_to_merge_df = get_time_to_merge_dataframe(content)
 ideal_time_to_merge = np.repeat(IDEAL_TIME_TO_MERGE, len(time_to_merge_df))
 fig_time_to_merge = plot_line_chart(time_to_merge_df, "Time to Merge", "Week", ["Mean", "Median", "Percentile 95"], ideal_time_to_merge)
 
-app.layout = html.Div(children=[
-    html.H1(children='Dashboard'),
+prs_list_df = get_prs_table_dataframe(content)
+fig_prs_list = plot_table_chart(prs_list_df)
 
-    html.Div(children='''
-        Metrics for https://github.com/rsarai/scrapping-metrics
-    '''),
-    html.Div([
-        dcc.Graph(
-            id='Merge Rate',
-            figure=fig_merge_rate
-        ),
-        dcc.Graph(
-            id='Merge Time',
-            figure=fig_open_to_merge
-        ),
-    ], style={'display': 'flex', 'width': '100%'}),
-    html.Div([
-        dcc.Graph(
-            id='Merge Time By Author',
-            figure=fig_open_to_merge_by_author
-        ),
-    ], style={'height': '100%'}),
-    html.Div([
-        dcc.Graph(
-            id='PR Size',
-            figure=fig_pr_size
-        ),
-        dcc.Graph(
-            id='Time to review',
-            figure=fig_time_to_review
-        ),
-    ], style={'display': 'flex', 'width': '100%'}),
-    html.Div([
-        dcc.Graph(
-            id='Time to Open',
-            figure=fig_time_to_open
-        ),
-        dcc.Graph(
-            id='Time to Merge',
-            figure=fig_time_to_merge
-        ),
-    ], style={'display': 'flex', 'width': '100%'}),
-])
+team_stats_df = get_team_stats_dataframe(content)
+fig_team_stats = plot_table_chart(team_stats_df)
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+with open('export.html', 'w') as f:
+    f.write(fig_team_stats.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_prs_list.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_merge_rate.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_open_to_merge.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_pr_size.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_open_to_merge_by_author.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_time_to_review.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_time_to_open.to_html(full_html=False, include_plotlyjs='cdn'))
+    f.write(fig_time_to_merge.to_html(full_html=False, include_plotlyjs='cdn'))

@@ -54,3 +54,32 @@ def plot_line_chart_with_bar(df, title, x_label, y_labels, bar_label, ideal):
 def plot_pie_chart(df, title, key, value):
     fig = px.pie(df, values=value, names=key, title=title)
     return fig
+
+
+def plot_table_chart(df):
+    rowEvenColor = 'lightgrey'
+    rowOddColor = 'white'
+
+    header = list(df.columns)
+    isOdd = len(df.index) % 2 == 0
+    fig = go.Figure(data=[go.Table(
+            header=dict(
+                values=header,
+                line_color='darkslategray',
+                fill_color='grey',
+                align=['left','center'],
+            ),
+            cells=dict(
+                values=[df[i] for i in header],
+                line_color='darkslategray',
+                fill_color=[
+                        [rowOddColor, rowEvenColor, rowOddColor, rowEvenColor] * (len(df.index) // 2) + [rowOddColor]
+                        if isOdd
+                        else [rowOddColor, rowEvenColor, rowOddColor, rowEvenColor] * (len(df.index) // 2)
+                    ],
+                align='left'
+            )
+        )
+    ])
+
+    return fig
