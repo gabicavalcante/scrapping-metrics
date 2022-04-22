@@ -23,8 +23,8 @@ jobs:
       - name: Run metrics
         run: python run.py
         env:
-          GITHUB_LOGIN: ${{ secrets.LOGIN }}
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_LOGIN: ${{ secrets.GITHUB_LOGIN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORG_NAME: ${{ secrets.ORG_NAME }}
           REPOSITORY_NAME: ${{ secrets.REPOSITORY_NAME }}
       - name: Export Dashboard

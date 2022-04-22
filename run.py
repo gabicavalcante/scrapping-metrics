@@ -83,16 +83,15 @@ def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weeke
         "time_to_review": time_to_review,
     }
 
-    with open("metrics.json") as f:
-        old_file_content = json.load(f)
-        if old_file_content == {}:
-            old_file_content = {"metrics": []}
+
+    old_file_content = {"metrics": []}
+    if os.path.exists("metrics.json"):
+        with open("metrics.json") as f:
+            old_file_content = json.load(f)
 
     old_file_content["metrics"].append(week_result)
-
     with open("metrics.json", 'w') as f:
         json.dump(old_file_content, f, indent=4, default=str)
-
 
 
 if __name__ == "__main__":

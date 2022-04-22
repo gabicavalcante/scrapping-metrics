@@ -1,9 +1,14 @@
+import os
+import arrow
 import pandas as pd
 
 from run import get_all_github_metrics
 from datetime import timedelta
 
-sprint_inits = list(pd.date_range(start='2021-10-30', end='2022-01-11', freq='2W'))
+start_date = os.getenv('START_DATE')
+final_end_data = str(arrow.now().date())
+sprint_inits = list(pd.date_range(start=start_date, end=final_end_data, freq='2W'))
+
 sprint_ranges = []
 _max = len(sprint_inits) - 1
 for i, date in enumerate(sprint_inits):

@@ -1,0 +1,46 @@
+name: Setup Retroactive Info
+
+on:
+  workflow_dispatch:
+    inputs:
+      startDate:
+        description: 'Start Date'
+        required: true
+        default: '2021-10-30'
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install github-metrics
+
+      - name: Run metrics
+        run: python retroactive.py
+        env:
+          GITHUB_LOGIN: ${{ secrets.GITHUB_LOGIN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORG_NAME: ${{ secrets.ORG_NAME }}
+          REPOSITORY_NAME: ${{ secrets.REPOSITORY_NAME }}
+          START_DATE: ${{ github.event.inputs.startDate }}
+      - name: Export Dashboard
+        run: python export.py
+
+      - name: Commit and push if it changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push

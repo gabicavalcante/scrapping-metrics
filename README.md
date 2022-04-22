@@ -7,11 +7,12 @@
 {}
 ```
 - On Github, go to Setting > Secrets and create (follow the steps [here](https://github.com/vintasoftware/github-metrics#project-variables-setup)):
-    - LOGIN
+    - GITHUB_LOGIN
     - ORG_NAME
     - REPOSITORY_NAME
-    - TOKEN
+    - GITHUB_TOKEN
     - EXCLUDE_AUTHORS
+    - START_DATE
 - To fill the data retroactively you should run:
     - The script considers sprints of 2 weeks and 2019-12-30 as the start date
 
