@@ -85,7 +85,7 @@ def fetch_all(
         exclude_weekends=exclude_weekends,
     )
 
-    week_result = {
+    results = {
         "key": f"{start_datetime.isocalendar()[0]}/{start_datetime.isocalendar()[1]}",
         "merge_rate": merge_rate,
         "hotfixes": hotfixes,
@@ -96,4 +96,4 @@ def fetch_all(
         "time_to_review": time_to_review,
     }
 
-    return week_result
+    return results
