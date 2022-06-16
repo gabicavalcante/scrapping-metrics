@@ -14,7 +14,6 @@ from github_metrics.request import fetch_prs_between
 
 
 def get_all_github_metrics(start_date, end_date, include_hotfixes, exclude_weekends, exclude_authors, filter_authors):
-    key = f"{start_date}-{end_date}"
     start_date = arrow.get(start_date)
     end_date = arrow.get(f"{end_date}T23:59:59")
 
