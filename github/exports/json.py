@@ -1,6 +1,7 @@
 import os
 import json
 
+
 def export(metrics_data):
     old_file_content = {"metrics": []}
     if os.path.exists("metrics.json"):

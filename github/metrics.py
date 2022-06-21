@@ -15,14 +15,14 @@ from github_metrics.request import fetch_prs_between
 def fetch_all(
     start_date: date,
     end_date: date,
-    include_hotfixes: bool = False,
+    include_hotfixes: bool = True,
     exclude_weekends: bool = True,
     exclude_authors: str = "",
     filter_authors: str = "",
 ):
     start_datetime = arrow.get(start_date)
     end_datetime = arrow.get(f"{end_date}T23:59:59")
-    
+
     pr_list = fetch_prs_between(start_datetime, end_datetime)
 
     exclude_user_list = []
@@ -32,13 +32,13 @@ def fetch_all(
     filter_user_list = []
     if filter_authors:
         filter_user_list = filter_authors.split(",")
-    
+
     merge_rate = get_merge_rate_data(
         pr_list=pr_list,
         include_hotfixes=include_hotfixes,
         exclude_authors=exclude_user_list,
         filter_authors=filter_user_list,
-    ) 
+    )
 
     hotfixes = get_hotfixes_data(
         pr_list=pr_list,
